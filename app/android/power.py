@@ -1,6 +1,12 @@
 from flask import Flask,jsonify,make_response,abort,redirect,render_template
 from . import power
 import requests
+import logging
+
+logging.basicConfig(filename='monitor.log',format='%(asctime)s -%(name)s-%(levelname)s-%(module)s:%(message)s',
+                    datefmt='%Y-%m-%d %H:%M:%S %p',
+                    level=logging.DEBUG)
+logger = logging.getLogger('manage')
 
 @power.route('/', methods=['GET','POST'])
 def index():
@@ -13,10 +19,17 @@ def index():
 def battery_level(ip):
 
     try:
-        print('url=' + 'http://' + ip + ':7912/info')
-        r = requests.get('http://' + ip + ':7912/info').json()
+        logger.info('请求url=' + 'http://' + ip + ':7912/info')
+        r = requests.get('http://' + ip + ':7912/info',timeout=3)\
+
+    except requests.exceptions.ConnectTimeout:
+        logger.info('连接超时')
+        return ''
+    except requests.exceptions.ConnectionError:
+        logger.info("连接失败")
+        return ''
     except ValueError:
-        print('json解析异常')
+        logger.info('json解析异常')
         return '0'
 
-    return str(r.get('battery').get('level'))
+    return str(r.josn().get('battery').get('level'))

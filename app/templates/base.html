@@ -35,6 +35,11 @@
                 <li><a href="{{ url_for('mock_api.index') }}">MOCK管理平台</a></li>
                 {% endif %}
                 {% if current_user.is_authenticated %}
+                <li><a href="{{ url_for('power.index') }}">android电量查看</a></li>
+                {% else %}
+                <li><a href="{{ url_for('power.index') }}">android电量查看</a></li>
+                {% endif %}
+                {% if current_user.is_authenticated %}
                 <li><a href="{{ url_for('main.user', username=current_user.username) }}">Profile</a></li>
                 {% endif %}
             </ul>

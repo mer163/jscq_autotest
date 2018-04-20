@@ -1045,3 +1045,146 @@
 2018-04-20 16:36:23 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
 2018-04-20 16:36:23 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:36:23] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
 2018-04-20 16:36:23 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:41:53 PM -monitor.log-DEBUG-manage:程序开始启动
+2018-04-20 16:41:53 PM -werkzeug-INFO-_internal: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+2018-04-20 16:41:53 PM -werkzeug-INFO-_internal: * Restarting with stat
+2018-04-20 16:41:55 PM -monitor.log-DEBUG-manage:程序开始启动
+2018-04-20 16:41:55 PM -werkzeug-WARNING-_internal: * Debugger is active!
+2018-04-20 16:41:55 PM -werkzeug-INFO-_internal: * Debugger PIN: 258-631-216
+2018-04-20 16:41:55 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:41:57 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:41:57 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:41:57] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:41:57 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:41:57 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:41:57 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:41:57] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:41:57 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:41:57 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:41:57 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:41:57] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:41:57 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:41:57 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:41:57 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:41:57] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:41:57 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:41:57 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:41:58 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:41:58] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:41:58 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:41:58 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:41:58 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:41:58] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:41:59 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:41:59 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:41:59 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:41:59] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:42:00 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:42:00 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:42:00 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:42:00] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:42:01 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:42:01 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:42:01 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:42:01] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:42:02 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:42:02] "GET / HTTP/1.1" 500 -
+2018-04-20 16:42:03 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:42:03 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:42:03 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:42:03] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:42:03 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:42:03] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-04-20 16:42:03 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:42:03] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-04-20 16:42:03 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:42:03] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-04-20 16:42:03 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:42:03] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-04-20 16:42:03 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:42:03] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-04-20 16:42:04 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:42:04] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-04-20 16:44:20 PM -monitor.log-DEBUG-manage:程序开始启动
+2018-04-20 16:44:20 PM -werkzeug-INFO-_internal: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+2018-04-20 16:44:20 PM -werkzeug-INFO-_internal: * Restarting with stat
+2018-04-20 16:44:23 PM -monitor.log-DEBUG-manage:程序开始启动
+2018-04-20 16:44:23 PM -werkzeug-WARNING-_internal: * Debugger is active!
+2018-04-20 16:44:23 PM -werkzeug-INFO-_internal: * Debugger PIN: 258-631-216
+2018-04-20 16:44:24 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:24] "GET / HTTP/1.1" 200 -
+2018-04-20 16:44:24 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:24] "GET /static/styles.css HTTP/1.1" 200 -
+2018-04-20 16:44:25 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:25] "GET /static/favicon.ico HTTP/1.1" 200 -
+2018-04-20 16:44:29 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:29] "GET /android/ HTTP/1.1" 200 -
+2018-04-20 16:44:34 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:34] "GET /testcases/ HTTP/1.1" 200 -
+2018-04-20 16:44:35 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:35] "GET /static/css/index.css HTTP/1.1" 200 -
+2018-04-20 16:44:35 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:35] "GET /static/js/config.js HTTP/1.1" 200 -
+2018-04-20 16:44:35 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:35] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 200 -
+2018-04-20 16:44:35 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:35] "GET /static/js/jqPaginator.min.js HTTP/1.1" 200 -
+2018-04-20 16:44:35 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:35] "GET /static/js/fn.js HTTP/1.1" 200 -
+2018-04-20 16:44:35 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:35] "GET /static/js/indexJQ.js HTTP/1.1" 200 -
+2018-04-20 16:44:35 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:35] "GET /static/js/jQuery-File-Upload-master/jquery.ui.widget.js HTTP/1.1" 200 -
+2018-04-20 16:44:35 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:35] "GET /static/js/jQuery-File-Upload-master/jquery.iframe-transport.js HTTP/1.1" 200 -
+2018-04-20 16:44:35 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:35] "GET /static/js/jQuery-File-Upload-master/jquery.fileupload.js HTTP/1.1" 200 -
+2018-04-20 16:44:35 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:35] "GET /static/img/index.png HTTP/1.1" 200 -
+2018-04-20 16:44:37 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:37] "GET /mock/ HTTP/1.1" 200 -
+2018-04-20 16:44:37 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:37] "GET /static/js/mockfn.js HTTP/1.1" 200 -
+2018-04-20 16:44:37 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:37] "GET /static/js/mockJQ.js HTTP/1.1" 200 -
+2018-04-20 16:44:39 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:39] "GET /android/ HTTP/1.1" 200 -
+2018-04-20 16:44:42 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:42 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://19:7912/info HTTP/1.1" 503 936
+2018-04-20 16:44:42 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:42] "GET /android/battery_level/19 HTTP/1.1" 200 -
+2018-04-20 16:44:43 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:43 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.:7912/info HTTP/1.1" 503 787
+2018-04-20 16:44:43 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:43] "GET /android/battery_level/192.168. HTTP/1.1" 200 -
+2018-04-20 16:44:44 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:44 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.:7912/info HTTP/1.1" 503 741
+2018-04-20 16:44:44 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:44] "GET /android/battery_level/192.168. HTTP/1.1" 200 -
+2018-04-20 16:44:45 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:49 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.0:7912/info HTTP/1.1" 503 675
+2018-04-20 16:44:49 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:49] "GET /android/battery_level/192.168.0 HTTP/1.1" 200 -
+2018-04-20 16:44:49 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:49 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.1:7912/info HTTP/1.1" 503 942
+2018-04-20 16:44:49 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:49] "GET /android/battery_level/192.168.1.1 HTTP/1.1" 200 -
+2018-04-20 16:44:49 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:49 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:44:49 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:49] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:44:49 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:49 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:44:49 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:49] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:44:49 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:49 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:44:49 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:49] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:44:50 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:50 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:44:50 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:50] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:44:51 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:51 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:44:51 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:51] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:44:52 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:52 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:44:52 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:52] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:44:53 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:53 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:44:53 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:53] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:44:54 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:54 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:44:54 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:54] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:44:55 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:55 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:44:55 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:55] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:44:56 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:56 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:44:56 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:56] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:44:57 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:57 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:44:57 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:57] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:44:58 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:58 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:44:58 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:58] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:44:59 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:44:59 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:44:59 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:44:59] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:45:00 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:45:00 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:45:00 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:45:00] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:45:01 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:45:01 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:45:01 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:45:01] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:45:02 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:45:02 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:45:02 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:45:02] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:45:03 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:45:03 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:45:03 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:45:03] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:45:04 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:45:04 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:45:04 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:45:04] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:45:05 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:45:05 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:45:05 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:45:05] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -
+2018-04-20 16:45:06 PM -urllib3.connectionpool-DEBUG-connectionpool:Starting new HTTP connection (1): 127.0.0.1
+2018-04-20 16:45:06 PM -urllib3.connectionpool-DEBUG-connectionpool:http://127.0.0.1:8888 "GET http://192.168.1.153:7912/info HTTP/1.1" 200 431
+2018-04-20 16:45:06 PM -werkzeug-INFO-_internal:127.0.0.1 - - [20/Apr/2018 16:45:06] "GET /android/battery_level/192.168.1.153 HTTP/1.1" 200 -

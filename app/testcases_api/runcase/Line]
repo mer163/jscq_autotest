@@ -1,0 +1,51 @@
+yy:
+%s /a/b
+% /aaaaa/bbbbb
+%s /aaaa/bbbb
+%s /abc/start
+set ruler
+set undolevel
+set smartindent
+syntax on
+:w !sudo tee %
+wq！
+q! sudo tee %
+set num
+q@
+wq@!
+nu
+WQ!
+w !sudo %
+@
+w su ! 
+q! sudo 
+sudo w!
+!
+!!
+! % tee
+! %sudo tee
+wq!@
+q@!
+java
+wq! sudo tee !
+wq sudo ! tee 
+wq! sudo tee %
+q:q!
+500
+Internal Server Error
+sudo tee %
+sudo w tee %
+w !sudo tee %
+w ! sudo tee % 
+q
+w !sudo tee &
+q!@
+q！
+$
+wq
+w! sudo tee %
+q1
+wq!
+w ! sudo tee %
+q!
+

@@ -49,4 +49,7 @@ def create_app(config_name):
     from .mock_api import mock_api as mock_blueprint
     app.register_blueprint(mock_blueprint, url_prefix='/mock')
 
+    from .android.power import power as power
+    app.register_blueprint(power, url_prefix='/android')
+
     return app

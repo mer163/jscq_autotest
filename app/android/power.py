@@ -20,8 +20,8 @@ def battery_level(ip):
 
     try:
         logger.info('请求url=' + 'http://' + ip + ':7912/info')
-        r = requests.get('http://' + ip + ':7912/info',timeout=3)\
-
+        r = requests.get('http://' + ip + ':7912/info',timeout=3)
+        result = r.json()
     except requests.exceptions.ConnectTimeout:
         logger.info('连接超时')
         return ''
@@ -32,4 +32,4 @@ def battery_level(ip):
         logger.info('json解析异常')
         return '0'
 
-    return str(r.josn().get('battery').get('level'))
+    return str(result.get('battery').get('level'))

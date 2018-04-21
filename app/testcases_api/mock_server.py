@@ -18,8 +18,8 @@ print(sys.getdefaultencoding())
 app = Flask(__name__)
 
 cf = configparser.ConfigParser()
-path = u'/usr/local/mock/db.config'
-#path = u'E:\git\local\mock\db.config'
+path = u'/usr/local/mock/config.ini'
+#path = u'E:\git\local\mock\config.ini'
 cf.read(path)
 cf.read(path)
 secs = cf.sections()

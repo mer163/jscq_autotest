@@ -19,8 +19,8 @@
 # # sys.setdefaultencoding('utf-8')
 #
 # cf = configparser.ConfigParser()
-# # path = 'db.config'
-# path = u'E:\git\local\mock\db.config'
+# # path = 'config.ini'
+# path = u'E:\git\local\mock\config.ini'
 # cf.read(path)
 # # print(cf.)
 # # cf.read(path)

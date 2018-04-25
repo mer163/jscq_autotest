@@ -62,7 +62,7 @@ def index():
 @main.route('/test', methods=['GET', 'POST'])
 def test():
 
-    return redirect("http://localhost:5001/testcases")
+    return redirect("http://192.168.0.24:20088/testcases")
 
 @main.route('/user/<username>')
 def user(username):

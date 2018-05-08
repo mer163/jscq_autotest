@@ -42,6 +42,7 @@ function getAllData(){
 		success:function(res){
 			if(res.msg != "ok"){
 				alert(res.msg);
+				location.href= location.origin + "/auth/login";
 				return;
 			}
 			var _data=res.data;

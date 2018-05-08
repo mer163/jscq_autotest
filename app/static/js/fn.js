@@ -17,6 +17,7 @@ function projectNameList(){
 		success:function(res){			
 			if(res.msg!="ok"){
 				alert(res.remark);
+				location.href= location.origin + "/auth/login";
 				return;
 			}
 			var _data=res.data;
@@ -57,6 +58,7 @@ function getAllData(){
 		success:function(res){
 			if(res.msg!="ok"){
 				alert(res.remark);
+				location.href= location.origin + "/auth/login";
 				return;
 			}
 			var _data=res.data;
@@ -183,6 +185,7 @@ $.ajax({
 	success:function(res){
 		if(res.msg!="ok"){
 			alert(res.remark);
+			location.href= location.origin + "/auth/login";
 			return;
 		}
 		getAllData();
@@ -234,6 +237,7 @@ function add(){
 		success:function(res){			
 			if(res.msg!="ok"){
 				alert(res.remark);
+				location.href= location.origin + "/auth/login";
 				return;
 			}
 			getAllData();
@@ -259,6 +263,7 @@ function del(){
 		success:function(res){			
 			if(res.msg!="ok"){
 				alert(res.remark);
+				location.href= location.origin + "/auth/login";
 				return;
 			}
 			alert("删除成功！");
@@ -284,6 +289,7 @@ function run(){
 		success:function(res){
 			if(res.msg!="ok"){
 				alert(res.remark);
+				location.href= location.origin + "/auth/login";
 				return;
 			}
 			alert("提交成功！");
@@ -302,6 +308,7 @@ function runAll(){
 		success:function(res){
 			if(res.msg!="ok"){
 				alert(res.remark);
+				location.href= location.origin + "/auth/login";
 				return;
 			}
 			alert("提交成功！");
@@ -363,6 +370,7 @@ function copyHandle(){
 		success:function(res){			
 			if(res.msg!="ok"){
 				alert(res.remark);
+				location.href= location.origin + "/auth/login";
 				return;
 			}
 			alert("复制成功！");

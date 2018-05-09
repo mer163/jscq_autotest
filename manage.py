@@ -27,7 +27,8 @@ migrate = Migrate(app, db)
 
 logging.basicConfig(filename='monitor.log',format='%(asctime)s -%(name)s-%(levelname)s-%(module)s:%(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S %p',
-                    level=logging.DEBUG)
+                    level=logging.DEBUG,
+                    encoding='utf8')
 logger = logging.getLogger('manage')
 
 

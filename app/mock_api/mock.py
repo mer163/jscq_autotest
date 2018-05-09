@@ -1,14 +1,5 @@
 # -*- coding: UTF-8 -*-
 
-import sys
-
-# import importlib
-# importlib.reload(sys)
-
-# from imp import reload
-# reload(sys)
-# sys.setdefaultencoding('utf-8')
-# _*_ coding = utf-8 _*_
 from  flask import Flask,request,jsonify,make_response,abort,redirect,render_template
 from flask_login import login_user, logout_user, login_required, \
     current_user

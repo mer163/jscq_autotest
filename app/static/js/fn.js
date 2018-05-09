@@ -263,7 +263,7 @@ function del(){
 		success:function(res){			
 			if(res.msg!="ok"){
 				alert(res.remark);
-				location.href= location.origin + "/auth/login";
+				// location.href= location.origin + "/auth/login";
 				return;
 			}
 			alert("删除成功！");
@@ -289,7 +289,7 @@ function run(){
 		success:function(res){
 			if(res.msg!="ok"){
 				alert(res.remark);
-				location.href= location.origin + "/auth/login";
+				// location.href= location.origin + "/auth/login";
 				return;
 			}
 			alert("提交成功！");
@@ -308,7 +308,7 @@ function runAll(){
 		success:function(res){
 			if(res.msg!="ok"){
 				alert(res.remark);
-				location.href= location.origin + "/auth/login";
+				// location.href= location.origin + "/auth/login";
 				return;
 			}
 			alert("提交成功！");

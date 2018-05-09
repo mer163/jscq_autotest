@@ -30,12 +30,6 @@ class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_RECORD_QUERIES = True
 
-    # foremail: 'automail@zbwxkj.com'
-    # password: "test123@zbwxkj.com"
-    # toeamil: "zhicheng.ma@zbwxkj.com,mer163@sina.com"
-    # smtpaddress: "smtp.mxhichina.com"
-    # smtpport: "465"
-    # title: "测试报告"
 
     # 配置邮件
     MAIL_SERVER = config.get('email','MAIL_SERVER')

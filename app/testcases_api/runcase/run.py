@@ -102,7 +102,7 @@ def runTest(list):
             else:
                 print('request_data is not null')
 
-            # print(request_data)
+            print('requestdata: ',request_data)
             code, response = interfaceTest(api_host, request_url, request_data, request_method,token=correlationDict['token'])
             print('进入参数关联循环')
             for j in range(len(correlation)):

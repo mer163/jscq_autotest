@@ -11,6 +11,9 @@ git pull
 echo '最近3条更新日志'
 git log -3
 
+echo '修改配置文件'
+cp -rf ../config.ini .
+
 #停掉服务，并重启服务
 ./restart.sh
 

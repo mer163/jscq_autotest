@@ -1,4 +1,4 @@
-# -*- coding: UTF-8 -*-
+# coding=utf-8
 import os
 import configparser
 
@@ -39,9 +39,9 @@ class Config:
 
     # 配置邮件
     MAIL_SERVER = config.get('email','MAIL_SERVER')
-    MAIL_PORT = config.get('email','MAIL_PORT')
-    MAIL_USE_TLS = config.get('email','MAIL_USE_TLS')
-    MAIL_USE_SSL = config.get('email','MAIL_USE_SSL')
+    MAIL_PORT = int(config.get('email','MAIL_PORT'))
+    MAIL_USE_TLS = config.get('email','MAIL_USE_TLS')== str(True)
+    MAIL_USE_SSL = config.get('email','MAIL_USE_SSL')== str(True)
     MAIL_USERNAME =  config.get('email','MAIL_USERNAME')
     MAIL_PASSWORD = config.get('email','MAIL_PASSWORD')
     FLASKY_MAIL_SUBJECT_PREFIX = config.get('email','FLASKY_MAIL_SUBJECT_PREFIX')

@@ -1,7 +1,7 @@
 function getDevices(){
       $.ajax(
             {
-              url: "/getDevicesList.json",
+              url: "/autotest/getDevicesList.json",
               data:{},
               type: "get",
               dataType:"json",

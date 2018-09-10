@@ -18,7 +18,7 @@ function addHub() {
    $("#new_hub").validate();
    $.ajax(
           {
-            url: "/add_hub.json",
+            url: "/autotest/add_hub.json",
             data:{"host":$("#host").val(), "port":$("#port").val(),"status":$("#status").val()},
             type: "post",
             beforeSend:function()
@@ -32,13 +32,13 @@ function addHub() {
               {
                 alert('恭喜，成功！');
                 $("#tip").html("<span style='color:blueviolet'>恭喜，新增成功！</span>");
-                window.location.href=('/testhubs');
+                window.location.href=('/autotest/testhubs');
               }
               else
               {
                 $("#tip").html("<span style='color:red'>失败，请重试</span>");
                 alert('失败，请重试: '+data.msg);
-                window.location.href=('/add_hub');
+                window.location.href=('/autotest/add_hub');
               }
             },
             error:function()
@@ -59,7 +59,7 @@ var TableInit = function () {
     //初始化Table
     oTableInit.Init = function () {
         $('#tb_hubs').bootstrapTable({
-            url: '/search_hubs.json',         //请求后台的URL（*）
+            url: '/autotest/search_hubs.json',         //请求后台的URL（*）
             method: 'get',                      //请求方式（*）
             toolbar: '#toolbar',                //工具按钮用哪个容器
             striped: true,                      //是否显示行间隔色
@@ -116,7 +116,7 @@ var TableInit = function () {
                 title: '操作',
                 align: 'center',
                 formatter: function (value, row, index) {
-                        var a = '<a href="javascript:;" onclick="window.location.href=(\'/edit_hub?id='+ row.id + '\')">编辑</a> ';
+                        var a = '<a href="javascript:;" onclick="window.location.href=(\'/autotest/edit_hub?id='+ row.id + '\')">编辑</a> ';
                         return a;
                         }
               }
@@ -125,7 +125,7 @@ var TableInit = function () {
     };
 
 function edit(index) {
-    window.location.href=('/edit_test_case?id='+index);
+    window.location.href=('/autotest/edit_test_case?id='+index);
 }
 
 function operateFormatter(value, row, index) {
@@ -137,7 +137,7 @@ function operateFormatter(value, row, index) {
 
 window.operateEvents = {
             'click .RoleOfEdit': function (e, value, row, index) {
-                window.location.href=('/add_test_case');
+                window.location.href=('/autotest/add_test_case');
          },
             'click .RoleOfDelete': function (e, value, row, index) {
                 alert("B");
@@ -163,7 +163,7 @@ window.operateEvents = {
 function searchHubs(){
 //    alert(1)
     var $tb_departments = $('#tb_hubs');
-    $tb_departments.bootstrapTable('refresh', {url: '/search_hubs.json',data:{name:$("#name").val() }});
+    $tb_departments.bootstrapTable('refresh', {url: '/autotest/search_hubs.json',data:{name:$("#name").val() }});
 }
 
 
@@ -171,7 +171,7 @@ function searchHubs(){
 
 function check_hubs(){
   $.ajax({
-  url: '/check_hubs.json',
+  url: '/autotest/check_hubs.json',
   method: 'get',
 
    beforeSend:function()
@@ -190,8 +190,6 @@ function check_hubs(){
               }else{
               alert('code is :'+data.code+' and message is :'+data.msg);
               }
-
-
 
             }
 

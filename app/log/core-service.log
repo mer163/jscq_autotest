@@ -3508,3 +3508,69 @@ Stacktrace:
 2018-09-10 16:14:24,571 - [keywords.py: 9] -INFO: 截图
 2018-09-10 16:14:24,898 - [process.py: 145] -INFO: id is 21864, result is 1, stepname is 截图
 2018-09-10 16:20:28,504 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 1)]
+2018-09-10 18:19:26,655 - [process.py: 27] -INFO: current case is : Chrome,前往|http://www.baidu.com,截图
+2018-09-10 18:19:26,657 - [coredriver.py: 19] -INFO: RUNTYPE is : Chrome
+2018-09-10 18:19:26,678 - [hubs.py: 16] -INFO: 4444 is down
+2018-09-10 18:19:26,789 - [hubs.py: 56] -INFO: update hub to unavailable: 192.168.0.24:4444
+2018-09-10 18:19:26,789 - [hubs.py: 73] -ERROR: no hubs is availabe!
+2018-09-10 18:19:26,790 - [coredriver.py: 21] -INFO: []
+2018-09-10 18:19:26,790 - [process.py: 46] -INFO: cannot run without available hubs!
+2018-09-10 18:19:26,791 - [process.py: 145] -INFO: id is 21865, result is 3, stepname is init
+2018-09-10 18:21:54,913 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 0)]
+2018-09-10 18:21:58,034 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 0)]
+2018-09-10 18:22:00,263 - [hubs.py: 45] -INFO: update hub to available: 192.168.0.24:4444,0
+2018-09-10 18:22:16,265 - [hubs.py: 47] -INFO: hub already available: 192.168.0.24:4444,0
+2018-09-10 18:24:19,745 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 1)]
+2018-09-10 18:24:23,190 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 1)]
+2018-09-10 18:25:56,502 - [process.py: 27] -INFO: current case is : Chrome,前往|http://www.baidu.com,截图
+2018-09-10 18:25:56,504 - [coredriver.py: 19] -INFO: RUNTYPE is : Chrome
+2018-09-10 18:25:56,519 - [hubs.py: 16] -INFO: 4444 is down
+2018-09-10 18:25:56,594 - [hubs.py: 56] -INFO: update hub to unavailable: 192.168.0.24:4444
+2018-09-10 18:25:56,595 - [hubs.py: 73] -ERROR: no hubs is availabe!
+2018-09-10 18:25:56,596 - [coredriver.py: 21] -INFO: []
+2018-09-10 18:25:56,597 - [process.py: 46] -INFO: cannot run without available hubs!
+2018-09-10 18:25:56,597 - [process.py: 145] -INFO: id is 21866, result is 3, stepname is init
+2018-09-10 18:26:12,084 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 0)]
+2018-09-10 18:26:14,031 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 0)]
+2018-09-10 18:26:17,800 - [hubs.py: 45] -INFO: update hub to available: 192.168.0.24:4444,0
+2018-09-10 18:29:16,198 - [hubs.py: 47] -INFO: hub already available: 192.168.0.24:4444,0
+2018-09-10 18:29:25,921 - [hubs.py: 47] -INFO: hub already available: 192.168.0.24:4444,0
+2018-09-10 18:34:27,188 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 1)]
+2018-09-10 18:34:29,531 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 1)]
+2018-09-10 18:34:38,816 - [hubs.py: 47] -INFO: hub already available: 192.168.0.24:4444,0
+2018-09-10 18:34:38,909 - [hubs.py: 47] -INFO: hub already available: 192.168.0.24:4444,0
+2018-09-10 18:35:07,764 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 1)]
+2018-09-10 18:35:12,324 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 1)]
+2018-09-10 18:36:50,540 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 1)]
+2018-09-10 18:36:54,993 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 1)]
+2018-09-10 18:37:00,187 - [hubs.py: 47] -INFO: hub already available: 192.168.0.24:4444,0
+2018-09-10 18:37:00,289 - [hubs.py: 47] -INFO: hub already available: 192.168.0.24:4444,0
+2018-09-10 18:37:05,172 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 1)]
+2018-09-10 18:37:34,366 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 1)]
+2018-09-10 18:37:35,696 - [hubs.py: 16] -INFO: 4444 is down
+2018-09-10 18:37:35,785 - [hubs.py: 56] -INFO: update hub to unavailable: 192.168.0.24:4444
+2018-09-10 18:37:35,786 - [hubs.py: 88] -ERROR: no hubs is availabe!
+2018-09-10 18:37:38,356 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 0)]
+2018-09-10 18:37:39,225 - [hubs.py: 16] -INFO: 4444 is down
+2018-09-10 18:37:39,306 - [hubs.py: 56] -INFO: update hub to unavailable: 192.168.0.24:4444
+2018-09-10 18:37:39,307 - [hubs.py: 88] -ERROR: no hubs is availabe!
+2018-09-10 18:37:41,063 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 0)]
+2018-09-10 18:37:47,041 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 0)]
+2018-09-10 18:37:47,909 - [hubs.py: 16] -INFO: 4444 is down
+2018-09-10 18:37:47,982 - [hubs.py: 56] -INFO: update hub to unavailable: 192.168.0.24:4444
+2018-09-10 18:37:47,983 - [hubs.py: 88] -ERROR: no hubs is availabe!
+2018-09-10 18:37:49,680 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 0)]
+2018-09-10 18:43:04,741 - [hubs.py: 33] -INFO: update hub to available: 192.168.0.24:4444
+2018-09-10 18:43:04,747 - [hubs.py: 92] -INFO: 192.168.0.24:4444
+2018-09-10 18:43:07,046 - [hubs.py: 102] -INFO: cases : [(1, '192.168.0.24', '4444', 0, 1)]
+2018-09-10 18:43:47,917 - [process.py: 27] -INFO: current case is : Chrome,前往|http://www.baidu.com,截图
+2018-09-10 18:43:47,917 - [coredriver.py: 19] -INFO: RUNTYPE is : Chrome
+2018-09-10 18:43:47,933 - [coredriver.py: 21] -INFO: [('192.168.0.24', '4444')]
+2018-09-10 18:43:47,934 - [coredriver.py: 13] -INFO: 0, 1
+2018-09-10 18:43:47,934 - [coredriver.py: 49] -INFO: {'browserName': 'chrome', 'version': '', 'platform': 'ANY'}
+2018-09-10 18:43:47,935 - [coredriver.py: 53] -INFO: start session 1 time!
+2018-09-10 18:43:49,208 - [coredriver.py: 72] -INFO: 1058
+2018-09-10 18:43:49,459 - [keywords.py: 9] -INFO: 前往
+2018-09-10 18:43:49,506 - [process.py: 72] -INFO: driver.get("http://www.baidu.com")
+2018-09-10 18:43:51,559 - [keywords.py: 9] -INFO: 截图
+2018-09-10 18:43:51,861 - [process.py: 145] -INFO: id is 21866, result is 1, stepname is 截图

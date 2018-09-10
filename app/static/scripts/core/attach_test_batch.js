@@ -1,7 +1,7 @@
 function getDevices(){
       $.ajax(
             {
-              url: "/getDevicesList.json",
+              url: "/autotest/getDevicesList.json",
               data:{},
               type: "get",
               dataType:"json",
@@ -72,7 +72,7 @@ var TableInit = function (test_suite_id) {
     //初始化Table
     oTableInit.Init = function () {
         $('#tb_test_batch1').bootstrapTable({
-            url: '/test_case.json',         //请求后台的URL（*）
+            url: '/autotest/test_case.json',         //请求后台的URL（*）
             method: 'get',                      //请求方式（*）
             toolbar: '#toolbar',                //工具按钮用哪个容器
             striped: true,                      //是否显示行间隔色
@@ -175,7 +175,7 @@ function get_edit_info(active_id)
 
     $.ajax(
         {
-          url: "test_suite.json",
+          url: "/autotest/test_suite.json",
           data:{"id":active_id},
           type: "get",
           dataType:"json",
@@ -229,7 +229,7 @@ function get_edit_info(active_id)
 
 function searchTestBatch1(test_suite_id){
     var $tb_departments = $('#tb_test_batch1');
-    $tb_departments.bootstrapTable('refresh', {url: '/test_case.json',data:{id: test_suite_id,status : $("#selectStatus1").val(), name : $('#casename1').val(),type:'unattach'}});
+    $tb_departments.bootstrapTable('refresh', {url: '/autotest/test_case.json',data:{id: test_suite_id,status : $("#selectStatus1").val(), name : $('#casename1').val(),type:'unattach'}});
 }
 
 //
@@ -254,7 +254,7 @@ function attachTestCase(test_suite_id){
     if(a.length>0){
          $.ajax(
         {
-          url: "/attach_test_batch.json",
+          url: "/autotest/attach_test_batch.json",
           data:{"test_suite_id":test_suite_id,"ipVal":ipVal,"browser_list":browser_list,"datarow":datarow},
           type: "get",
           dataType:"json",

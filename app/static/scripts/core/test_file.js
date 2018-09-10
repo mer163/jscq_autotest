@@ -29,7 +29,7 @@ var TableInit = function () {
     //初始化Table
     oTableInit.Init = function () {
         $('#tb_body').bootstrapTable({
-            url: '/search_test_file.json',         //请求后台的URL（*）
+            url: '/autotest/search_test_file.json',         //请求后台的URL（*）
             method: 'get',                      //请求方式（*）
             toolbar: '#toolbar',                //工具按钮用哪个容器
             striped: true,                      //是否显示行间隔色
@@ -93,13 +93,13 @@ var TableInit = function () {
                 formatter: function (value, row, index) {
                         if (row.runStatus=='2'){
                                 var aa = '<a href="javascript:;" onclick="openLocust()">查看</a> ';
-                                var a = '<a href="javascript:;" onclick="window.location.href=(\'/edit_test_file?id='+ row.id + '\')">编辑</a> ';
+                                var a = '<a href="javascript:;" onclick="window.location.href=(\'/autotest/edit_test_file?id='+ row.id + '\')">编辑</a> ';
                                 var b = '<a href="javascript:;" onclick="delete_test_file(\'' + row.id + '\',\'' + row.filePath + '\')">删除</a> ';
                                 var c = '<a href="javascript:;" onclick="run_test_file(\'' + row.id + '\',\'' + row.filePath + '\')">执行</a> ';
                                  var d = '<a href="javascript:;" onclick="load_test_file(\'' + row.id + '\',\'' + row.filePath + '\')">下载</a> ';
                                 return aa+a+b+c+d;
                         }else{
-                          var a = '<a href="javascript:;" onclick="window.location.href=(\'/edit_test_file?id='+ row.id + '\')">编辑</a> ';
+                          var a = '<a href="javascript:;" onclick="window.location.href=(\'/autotest/edit_test_file?id='+ row.id + '\')">编辑</a> ';
                             var b = '<a href="javascript:;" onclick="delete_test_file(\'' + row.id + '\',\'' + row.filePath + '\')">删除</a> ';
                             var c = '<a href="javascript:;" onclick="run_test_file(\'' + row.id + '\',\'' + row.filePath + '\')">执行</a> ';
                              var d = '<a href="javascript:;" onclick="load_test_file(\'' + row.id + '\',\'' + row.filePath + '\')">下载</a> ';
@@ -156,7 +156,7 @@ window.operateEvents = {
 
 function search(){
     var name=$('#name').val();
-   $('#tb_body').bootstrapTable('refresh', {url: '/search_test_file.json',query:{'name': name}});
+   $('#tb_body').bootstrapTable('refresh', {url: '/autotest/search_test_file.json',query:{'name': name}});
 }
 
 
@@ -173,7 +173,7 @@ function get_edit_info(active_id)
     }
     $.ajax(
         {
-          url: "/search_test_file.json",
+          url: "/autotest/search_test_file.json",
           data:{"id":active_id,"type":"test_case"},
           type: "get",
           dataType:"json",
@@ -227,7 +227,7 @@ function delete_test_file(active_id,filePath)
       }
       $.ajax(
           {
-            url: "/delete_test_file",
+            url: "/autotest/delete_test_file",
             data:{"id":active_id,"filePath":filePath, "act":"del"},
             type: "post",
             beforeSend:function()
@@ -275,7 +275,7 @@ function run_test_file(active_id,filePath)
       }
       $.ajax(
           {
-            url: "/run_test_file",
+            url: "/autotest/run_test_file",
             data:{"id":active_id,"filePath":filePath, "act":"run"},
             type: "post",
             beforeSend:function()
@@ -318,11 +318,11 @@ function run_test_file(active_id,filePath)
 
 //下载脚本
 function load_test_file(active_id,filePath){
-       window.location.href="/load_test_file?id="+active_id+"&filePath="+filePath
+       window.location.href="/autotest/load_test_file?id="+active_id+"&filePath="+filePath
 
 }
 
 //启动locust
 function openLocust(){
-   window.open("http://172.16.100.55:8089/")
+   window.open("http://192.168.0.24:9000/")
 }

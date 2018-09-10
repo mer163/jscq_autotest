@@ -24,7 +24,7 @@ $(function () {
 
 function get_test_suite_detail(id){
   $.ajax({
-  url: '/test_suite.json',
+  url: '/autotest/test_suite.json',
   method: 'get',
   data: {'id':id},
   success: success,
@@ -37,7 +37,7 @@ var TableInit = function () {
     //初始化Table
     oTableInit.Init = function () {
         $('#tb_test_suites').bootstrapTable({
-            url: '/test_suite.json',         //请求后台的URL（*）
+            url: '/autotest/test_suite.json',         //请求后台的URL（*）
             method: 'get',                      //请求方式（*）
             toolbar: '#toolbar',                //工具按钮用哪个容器
             striped: true,                      //是否显示行间隔色
@@ -84,10 +84,10 @@ var TableInit = function () {
                 title: '操作',
                 align: 'center',
                 formatter: function (value, row, index) {
-                        var a = '<a href="javascript:;" onclick="window.location.href=(\'/edit_test_suite?id='+ row.id + '\')">编辑</a> ';
+                        var a = '<a href="javascript:;" onclick="window.location.href=(\'/autotest/edit_test_suite?id='+ row.id + '\')">编辑</a> ';
                         var f = '<a href="javascript:;" onclick="copy_test_suite('+ row.id + ')">复制</a> ';
-                        var b = '<a href="javascript:;" onclick="window.location.href=(\'/attach_test_batch?test_suite_id='+ row.id + '\')">关联用例</a> ';
-                        var e = '<a href="javascript:;" onclick="window.location.href=(\'/test_batch_detail?test_suite_id='+ row.id + '\')">执行详情</a> ';
+                        var b = '<a href="javascript:;" onclick="window.location.href=(\'/autotest/attach_test_batch?test_suite_id='+ row.id + '\')">关联用例</a> ';
+                        var e = '<a href="javascript:;" onclick="window.location.href=(\'/autotest/test_batch_detail?test_suite_id='+ row.id + '\')">执行详情</a> ';
                         var c = '<a href="javascript:;" onclick="runtest('+ row.id + ')">执行</a> ';
 //                        var d = '<a href="javascript:;" onclick="delete_test_suite(\'' + row.id + '\')">删除</a> ';
                         return a +f+b+e+c ;
@@ -146,7 +146,7 @@ window.operateEvents = {
 
 function searchTestSuite(){
     var $tb_departments = $('#tb_test_suites');
-    $tb_departments.bootstrapTable('refresh', {url: '/test_suite.json'});
+    $tb_departments.bootstrapTable('refresh', {url: '/autotest/test_suite.json'});
 }
 
 //
@@ -169,7 +169,7 @@ function get_edit_info(active_id)
 
     $.ajax(
         {
-          url: "test_suite.json",
+          url: "/autotest/test_suite.json",
           data:{"id":active_id},
           type: "get",
           dataType:"json",
@@ -227,7 +227,7 @@ function delete_test_suite(active_id)
 
       $.ajax(
           {
-            url: "delete_test_suite",
+            url: "/autotest/delete_test_suite",
             data:{"id":active_id, "act":"del"},
             type: "post",
             beforeSend:function()
@@ -287,7 +287,7 @@ function add_test_suite()
     // 异步提交数据到action/add_action.php页面
     $.ajax(
         {
-          url: "/add_test_suite.json",
+          url: "/autotest/add_test_suite.json",
           data:{"run_type":$("#run_type").val(),"name":$("#name").val(),"description":$("#description").val()},
           type: "post",
           beforeSend:function()
@@ -301,7 +301,7 @@ function add_test_suite()
             if(data.code == 200)
             {
              alert('新增成功，请关联用例!');
-             window.location.href=('/attach_test_batch?test_suite_id='+data.ext);
+             window.location.href=('/autotest/attach_test_batch?test_suite_id='+data.ext);
             }
             else
             {
@@ -328,7 +328,7 @@ function add_test_suite()
  function runtest(test_suite_id){
          $.ajax(
         {
-          url: "/runtest.json",
+          url: "/autotest/runtest.json",
           data:{"id":test_suite_id,"type":"test_suite"},
           type: "get",
           dataType:"json",
@@ -373,7 +373,7 @@ function add_test_suite()
 function copy_test_suite(test_suite_id){
          $.ajax(
         {
-          url: "/copy_test_suite",
+          url: "/autotest/copy_test_suite",
           data:{"id":test_suite_id},
           type: "post",
           dataType:"json",

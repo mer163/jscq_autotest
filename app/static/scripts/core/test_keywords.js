@@ -36,7 +36,7 @@ var TableInit = function () {
     //初始化Table
     oTableInit.Init = function () {
         $('#tb_test_keywords').bootstrapTable({
-            url: '/test_keywords.json',         //请求后台的URL（*）
+            url: '/autotest/test_keywords.json',         //请求后台的URL（*）
             method: 'get',                      //请求方式（*）
             toolbar: '#toolbar',                //工具按钮用哪个容器
             striped: true,                      //是否显示行间隔色
@@ -86,7 +86,7 @@ var TableInit = function () {
                 title: '操作',
                 align: 'center',
                 formatter: function (value, row, index) {
-                        var a = '<a href="javascript:;" onclick="window.location.href=(\'/edit_test_keyword?id='+ row.id + '\')">编辑</a> ';
+                        var a = '<a href="javascript:;" onclick="window.location.href=(\'/autotest/edit_test_keyword?id='+ row.id + '\')">编辑</a> ';
                         var b = '<a href="javascript:;" onclick="copy_test_keyword(\'' + row.id + '\')">复制</a> ';
                         var c = '<a href="javascript:;" onclick="delete_test_keyword(\'' + row.id + '\')">删除</a> ';
                         return a+b+c;
@@ -111,7 +111,7 @@ var TableInit = function () {
 function searchKeywords(){
     var keyword=$('#keyword').val();
     var $tb_departments = $('#tb_test_keyword');
-   $('#tb_test_keywords').bootstrapTable('refresh', {url: '/test_keywords.json',query:{'keyword': keyword}});
+   $('#tb_test_keywords').bootstrapTable('refresh', {url: '/autotest/test_keywords.json',query:{'keyword': keyword}});
 }
 
 // 删除表单
@@ -127,7 +127,7 @@ function delete_test_keyword(active_id)
 
       $.ajax(
           {
-            url: "delete_test_keyword",
+            url: "/autotest/delete_test_keyword",
             data:{"id":active_id, "act":"del"},
             type: "post",
             beforeSend:function()
@@ -171,7 +171,7 @@ function delete_test_keyword(active_id)
 function copy_test_keyword(keyword_id){
          $.ajax(
         {
-          url: "/copy_test_keyword",
+          url: "/autotest/copy_test_keyword",
           data:{"id":keyword_id},
           type: "post",
           dataType:"json",
@@ -224,7 +224,7 @@ function get_edit_info(active_id)
 
     $.ajax(
         {
-          url: "/test_keywords.json",
+          url: "/autotest/test_keywords.json",
           data:{"id":active_id,"type":"test_keyword"},
           type: "get",
           dataType:"json",
@@ -275,7 +275,7 @@ function add_test_keyword()
     {
       $.ajax(
           {
-            url: "/add_test_keyword.json",
+            url: "/autotest/add_test_keyword.json",
             data:{"name":$("#name").val(), "template":$("#template").val(), "description":$("#description").val(), "paraCount":$("#paraCount").val()},
             type: "post",
             beforeSend:function()

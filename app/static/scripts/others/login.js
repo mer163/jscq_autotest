@@ -11,7 +11,7 @@ function checklogin(){
     var password=$("#password").val();
     $.ajax(
         {
-          url: "/checklogin.json",
+          url: "/autotest/checklogin.json",
           data:{"username":username,"password":password},
           type: "get",
           dataType:"json",
@@ -48,7 +48,7 @@ function updateButton(){
                     var password=$("#password").val();
                     $.ajax(
                         {
-                          url: "/user_password.json",
+                          url: "/autotest/user_password.json",
                           data:{"password":password},
                           type: "get",
                           dataType:"json",

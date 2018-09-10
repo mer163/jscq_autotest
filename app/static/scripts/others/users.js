@@ -13,7 +13,7 @@ function updateForm() {
    $("#update_user_password").validate();
    $.ajax(
           {
-            url: "/user_password.json",
+            url: "/autotest/user_password.json",
             data:{"password":$("#password").val()},
             type: "post",
             beforeSend:function()
@@ -35,7 +35,7 @@ function updateForm() {
               {
                 $("#tip").html("<span style='color:red'>失败，请重试</span>");
                 alert('失败，请重试: '+data.msg);
-                window.location.href=('/edit_user_password');
+                window.location.href=('/autotest/edit_user_password');
               }
             },
             error:function()
@@ -56,7 +56,7 @@ function addUser() {
    $("#new_user").validate();
    $.ajax(
           {
-            url: "/add_user.json",
+            url: "/autotest/add_user.json",
             data:{"username":$("#username").val(), "password":$("#password").val()},
             type: "post",
             beforeSend:function()
@@ -72,7 +72,7 @@ function addUser() {
                 $("#tip").html("<span style='color:blueviolet'>恭喜，新增成功！</span>");
 
 
-                window.location.href=('/users');
+                window.location.href=('/autotest/users');
               }
               else
               {
@@ -99,7 +99,7 @@ var TableInit = function () {
     //初始化Table
     oTableInit.Init = function () {
         $('#tb_users').bootstrapTable({
-            url: '/users.json',         //请求后台的URL（*）
+            url: '/autotest/users.json',         //请求后台的URL（*）
             method: 'get',                      //请求方式（*）
             toolbar: '#toolbar',                //工具按钮用哪个容器
             striped: true,                      //是否显示行间隔色

@@ -20,7 +20,7 @@
 {% block content %}
     <div class="panel-body" style="padding-bottom:0px;">
         <h1 style="text-align:center">编辑selenium 节点</h1>
-        <form class="form-horizontal" enctype="multipart/form-data" id="new_hub"  action="/add_hub.json" method="post">
+        <form class="form-horizontal" enctype="multipart/form-data" id="new_hub"  action="/autotest/add_hub.json" method="post">
             <div class="form-group">
                 <label for="host" class="col-sm-2 control-label">Host IP</label>
                 <div class="col-sm-10">
@@ -46,7 +46,7 @@
             <div class="form-group">s
                 <div class="col-sm-offset-2 col-sm-10">
                     <button id="submitButton" class="btn btn-default" onclick="addHub()">保存</button>
-                    <button id="btn_add" type="button" class="btn btn-default" onclick="window.location.href=('/testhubs')">返回</button>
+                    <button id="btn_add" type="button" class="btn btn-default" onclick="window.location.href=('/autotest/testhubs')">返回</button>
                     </div>
             </div>
 

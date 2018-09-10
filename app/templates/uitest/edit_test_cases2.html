@@ -22,7 +22,7 @@
 {% block content %}
 <div class="panel-body" style="padding-bottom:0px;">
     <h1 style="text-align:center">修改测试用例</h1>
-    <form class="form-horizontal" id="new_test_case" action="/edit_test_case" method="post">
+    <form class="form-horizontal" id="new_test_case" action="/autotest/edit_test_case" method="post">
         <!--<span style="font-size:18px;" onbeforeonloadNew="return get_edit_info({{id}})"></span>-->
         <!--action="/save_new_test_case" method="post"-->
         <div class="form-group">
@@ -101,7 +101,7 @@
             <div class="col-sm-offset-2 col-sm-10">
                 <button id="submitButton" class="btn btn-default" onclick="submitAddForm()">保存</button>
                 <button id="btn_add" type="button" class="btn btn-default"
-                        onclick="window.location.href=('/test_cases')">返回
+                        onclick="window.location.href=('/autotest/test_cases')">返回
                 </button>
                 <button id="btn_reset" type="button" class="btn btn-default" onclick="return get_edit_info({{id}})">重置
                 </button>

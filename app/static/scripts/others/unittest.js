@@ -92,7 +92,7 @@ $(function () {
 
 function get_test_case_detail(id){
   $.ajax({
-  url: '/test_case.json',
+  url: '/autotest/test_case.json',
   method: 'get',
   data: {'id':id},
   success: success,
@@ -105,7 +105,7 @@ var TableInit = function () {
     //初始化Table
     oTableInit.Init = function () {
         $('#tb_unittest_record').bootstrapTable({
-            url: '/unittest_record.json',         //请求后台的URL（*）
+            url: '/autotest/unittest_record.json',         //请求后台的URL（*）
             method: 'get',                      //请求方式（*）
             toolbar: '#toolbar',                //工具按钮用哪个容器
             striped: true,                      //是否显示行间隔色
@@ -158,7 +158,7 @@ var TableInit = function () {
     };
 
 function edit(index) {
-    window.location.href=('/edit_test_case?id='+index);
+    window.location.href=('/autotest/edit_test_case?id='+index);
 }
 
 function operateFormatter(value, row, index) {
@@ -207,7 +207,7 @@ var ButtonInit = function () {
 function searchUnittestRecord(){
 //    alert(1)
     var $tb_departments = $('#tb_unittest_record');
-    $tb_departments.bootstrapTable('refresh', {url: 'unittest_record.json',data:{name:$("#name").val() }});
+    $tb_departments.bootstrapTable('refresh', {url: '/autotest/unittest_record.json',data:{name:$("#name").val() }});
 }
 
 
@@ -231,7 +231,7 @@ function get_edit_info(active_id)
 
     $.ajax(
         {
-          url: "/test_case.json",
+          url: "/autotest/test_case.json",
           data:{"id":active_id,"type":"test_case"},
           type: "get",
           dataType:"json",
@@ -302,7 +302,7 @@ function delete_test_case(active_id)
 
       $.ajax(
           {
-            url: "delete_test_case",
+            url: "/autotest/delete_test_case",
             data:{"id":active_id, "act":"del"},
             type: "post",
             beforeSend:function()
@@ -345,7 +345,7 @@ function delete_test_case(active_id)
  function run_test_case(test_case_id){
          $.ajax(
         {
-          url: "/runtest.json",
+          url: "/autotest/runtest.json",
           data:{"id":test_case_id,"type":"test_case"},
           type: "get",
           dataType:"json",
@@ -361,7 +361,7 @@ function delete_test_case(active_id)
               var data = data;
               if(data.code==200){
               alert('success!');
-              window.location.href=('/test_case_runhistory?id='+ test_case_id  )
+              window.location.href=('/autotest/test_case_runhistory?id='+ test_case_id  )
               }else{
               alert('code is :'+data.code+' and message is :'+data.msg);
               }
@@ -390,7 +390,7 @@ function delete_test_case(active_id)
  function copy_test_case(test_case_id){
          $.ajax(
         {
-          url: "/copy_test_case",
+          url: "/autotest/copy_test_case",
           data:{"id":test_case_id},
           type: "post",
           dataType:"json",
@@ -448,7 +448,7 @@ setIframeHeight(document.getElementById('external-frame'));
 
 function run_unittest(){
   $.ajax({
-  url: '/run_unittest.json',
+  url: '/autotestautotest/run_unittest.json',
   method: 'get',
 
    beforeSend:function()

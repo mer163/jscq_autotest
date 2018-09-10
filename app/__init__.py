@@ -55,6 +55,6 @@ def create_app(config_name):
     app.register_blueprint(power, url_prefix='/android')
 
     from .uiauto.uiautotest import uiautotest as uiautotest
-    app.register_blueprint(uiautotest, url_prefix='/')
+    app.register_blueprint(uiautotest, url_prefix='/autotest')
 
     return app

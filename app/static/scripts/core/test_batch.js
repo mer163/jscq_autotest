@@ -1,7 +1,7 @@
 function getDevices(){
       $.ajax(
             {
-              url: "/getDevicesList.json",
+              url: "/autotest/getDevicesList.json",
               data:{},
               type: "get",
               dataType:"json",
@@ -59,7 +59,7 @@ var TableInit = function (test_suite_id) {
     //初始化Table
     oTableInit.Init = function () {
         $('#tb_test_batch').bootstrapTable({
-            url: '/test_batch.json',         //请求后台的URL（*）
+            url: '/autotest/test_batch.json',         //请求后台的URL（*）
             method: 'get',                      //请求方式（*）
             toolbar: '#toolbar',                //工具按钮用哪个容器
             striped: true,                      //是否显示行间隔色
@@ -92,7 +92,7 @@ var TableInit = function (test_suite_id) {
                 field: 'test_case_id',
                 title: '用例ID',
                 formatter: function (value, row, index) {
-                        var a = '<a href="javascript:;" onclick="window.open(\'/test_case_runhistory?id='+ row.test_case_id + '\')">'+row.test_case_id+'</a> ';
+                        var a = '<a href="javascript:;" onclick="window.open(\'/autotest/test_case_runhistory?id='+ row.test_case_id + '\')">'+row.test_case_id+'</a> ';
                         return a ;
                         }
             }, {
@@ -138,7 +138,7 @@ var TableInit = function (test_suite_id) {
                 align: 'center',
                 formatter: function (value, row, index) {
                         var a = '<a href="javascript:;" onclick="run_test_batch_record(\''+row.id+'\',\''+row.test_case_id+ '\')">重跑</a> ';
-                        var b = '<a href="javascript:;" onclick="window.open(\'/view_test_suite_screenshot?type=test_suite&id='+ row.id +'&test_batch_id='+test_suite_id+ '\')">截图</a> ';
+                        var b = '<a href="javascript:;" onclick="window.open(\'/autotest/view_test_suite_screenshot?type=test_suite&id='+ row.id +'&test_batch_id='+test_suite_id+ '\')">截图</a> ';
                         return a+b ;
                         }
             }, {
@@ -189,7 +189,7 @@ function get_edit_info(active_id)
 
     $.ajax(
         {
-          url: "test_suite.json",
+          url: "/autotest/test_suite.json",
           data:{"id":active_id,"type":"testview"},
           type: "get",
           dataType:"json",
@@ -251,12 +251,12 @@ function get_edit_info(active_id)
 function searchTestBatch(test_suite_id){
     var $tb_departments = $('#tb_test_batch');
     var ipVal=get_multiple_select_value("ipList")
-    $tb_departments.bootstrapTable('refresh', {url: '/test_batch.json',query:{"id": test_suite_id,"status" : $("#selectStatus").val(), "name" : $('#casename').val(),"type":'test_suite',"ipVal":ipVal}});
+    $tb_departments.bootstrapTable('refresh', {url: '/autotest/test_batch.json',query:{"id": test_suite_id,"status" : $("#selectStatus").val(), "name" : $('#casename').val(),"type":'test_suite',"ipVal":ipVal}});
 }
 
 function searchTestBatch1(test_suite_id){
     var $tb_departments = $('#tb_test_batch1');
-    $tb_departments.bootstrapTable('refresh', {url: '/test_batch.json',data:{id: test_suite_id,status : $("#selectStatus1").val(), name : $('#casename1').val(),type:'test_suite'}});
+    $tb_departments.bootstrapTable('refresh', {url: '/autotest/test_batch.json',data:{id: test_suite_id,status : $("#selectStatus1").val(), name : $('#casename1').val(),type:'test_suite'}});
 }
 
 
@@ -271,7 +271,7 @@ function searchTestBatch1(test_suite_id){
  function run_test_case_all(test_suite_id){
          $.ajax(
         {
-          url: "/runtest.json",
+          url: "/autotest/runtest.json",
           data:{"id":test_suite_id,"type":"test_suite_rerun_all"},
           type: "get",
           dataType:"json",
@@ -317,7 +317,7 @@ function run_test_case_all_Ip(test_suite_id){
         var ipVal=get_multiple_select_value("ipList")
          $.ajax(
         {
-          url: "/runtest.json",
+          url: "/autotest/runtest.json",
           data:{"id":test_suite_id,"ipVal":ipVal,"type":"test_suite_rerun_all"},
           type: "get",
           dataType:"json",
@@ -362,7 +362,7 @@ function run_test_case_all_Ip(test_suite_id){
  function run_test_case_part(test_suite_id){
          $.ajax(
         {
-          url: "/runtest.json",
+          url: "/autotest/runtest.json",
           data:{"id":test_suite_id,"type":"test_suite_rerun_part"},
           type: "get",
           dataType:"json",
@@ -405,15 +405,15 @@ function run_test_case_all_Ip(test_suite_id){
 }
 
 function return_page(test_batch_id,type){
-if(type=='test_case'){window.location.href=('/test_case_runhistory?id='+test_batch_id);
-}else{window.location.href=('/test_batch_detail?test_suite_id='+test_batch_id);}
+if(type=='test_case'){window.location.href=('/autotest/test_case_runhistory?id='+test_batch_id);
+}else{window.location.href=('/autotest/test_batch_detail?test_suite_id='+test_batch_id);}
 
 }
 
  function run_test_batch_record(rowid,test_case_id){
          $.ajax(
         {
-          url: "/runtest.json",
+          url: "/autotest/runtest.json",
           data:{"id":rowid,"type":"test_batch","test_case_id":test_case_id},
           type: "get",
           dataType:"json",

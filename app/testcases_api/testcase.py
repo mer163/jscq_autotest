@@ -396,7 +396,8 @@ def runCase():
 
     except Exception as e:
         print(e)
-        return jsonify({'msg': "fail", "remark": "服务器出现异常"  })
+
+        return jsonify({'msg': "fail", "remark": "服务器出现异常" +e.args[1] })
     return jsonify({'msg': "ok", "remark": "", "resultUrl": resulturl})
 
 

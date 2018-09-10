@@ -1,4 +1,4 @@
-{% extends "bootstrap/base.html" %}
+{% extends "base0.html" %}
 
 {% block title %}智宝无限{% endblock %}
 
@@ -7,6 +7,11 @@
 <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
 <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+<meta name="viewport" content="width=device-width" />
+    <script src="../static/jquery-1.12.4.js"></script>
+    <script src="../static/bootstrap-3.3.7-dist/dist/js/bootstrap.js"></script>
+    <link href="../static/bootstrap-3.3.7-dist/dist/css/bootstrap.css" rel="stylesheet" />
 {% endblock %}
 
 {% block navbar %}
@@ -23,25 +28,84 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
+                <li><a href="/">主页</a></li>
+                <li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					UI自动化测试 <b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu">
+                    <li><a href="/test_cases">Test Cases</a></li>
+                    <li><a href="/test_suites">Test Suite</a></li>
+                     <li><a href="/testhubs">节点管理</a></li>
+                    <li><a href="/testkeywords">步骤说明</a></li>
+				</ul>
+			    </li>
 
-                {% if current_user.is_authenticated %}
-                <li><a href="{{ url_for('testcases_api.index') }}">接口管理平台</a></li>
-                {% else %}
-                <li><a href="{{ url_for('testcases_api.index') }}">接口管理平台</a></li>
-                {% endif %}
-                {% if current_user.is_authenticated %}
-                <li><a href="{{ url_for('mock_api.index') }}">MOCK管理平台</a></li>
-                {% else %}
-                <li><a href="{{ url_for('mock_api.index') }}">MOCK管理平台</a></li>
-                {% endif %}
-                {% if current_user.is_authenticated %}
-                <li><a href="{{ url_for('power.index') }}">android电量查看</a></li>
-                {% else %}
-                <li><a href="{{ url_for('power.index') }}">android电量查看</a></li>
-                {% endif %}
-                {% if current_user.is_authenticated %}
-                <li><a href="{{ url_for('main.user', username=current_user.username) }}">Profile</a></li>
-                {% endif %}
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					接口自动化测试 <b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu">
+                    <li><a href="/interfacetestcases">接口管理平台</a></li>
+                    <li><a href="/interfacemock">MOCK管理平台</a></li>
+				</ul>
+			    </li>
+
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					性能测试 <b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu">
+                    <li><a href="/hitchhiker">hitchhiker</a></li>
+                    <li><a href="">集成jmeter(开发中)</a></li>
+
+				</ul>
+			    </li>
+
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					常用工具 <b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu">
+                    <li><a href="/power">android电量查看</a></li>
+                    <li><a href="/view_hub">android设备管理</a></li>
+                    <li><a href="/weditor">android元素定位</a></li>
+                    <li><a href="/fileshare">文件共享平台</a> </li>
+				</ul>
+			    </li>
+
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					测试管理平台工具 <b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu">
+                    <li><a href="/jira">jira</a></li>
+                    <li><a href="/testlink">testlink</a></li>
+                    <li><a href="/confluence">confluence</a></li>
+                    <li><a href="http://wiki.zbwxkj.office/">wiki</a> </li>
+				</ul>
+			    </li>
+
+
+
+{#                {% if current_user.is_authenticated %}#}
+{#                <li><a href="{{ url_for('testcases_api.index') }}">接口管理平台</a></li>#}
+{#                {% else %}#}
+{#                <li><a href="{{ url_for('testcases_api.index') }}">接口管理平台</a></li>#}
+{#                {% endif %}#}
+{#                {% if current_user.is_authenticated %}#}
+{#                <li><a href="{{ url_for('mock_api.index') }}">MOCK管理平台</a></li>#}
+{#                {% else %}#}
+{#                <li><a href="{{ url_for('mock_api.index') }}">MOCK管理平台</a></li>#}
+{#                {% endif %}#}
+{#                {% if current_user.is_authenticated %}#}
+{#                <li><a href="{{ url_for('power.index') }}">android电量查看</a></li>#}
+{#                {% else %}#}
+{#                <li><a href="{{ url_for('power.index') }}">android电量查看</a></li>#}
+{#                {% endif %}#}
+{#                {% if current_user.is_authenticated %}#}
+{#                <li><a href="{{ url_for('main.user', username=current_user.username) }}">Profile</a></li>#}
+{#                {% endif %}#}
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 {% if current_user.can(Permission.MODERATE_COMMENTS) %}

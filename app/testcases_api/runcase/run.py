@@ -191,7 +191,7 @@ def interfaceTest(api_host,request_url,request_data,request_method,token=''):
         return code, r.text
 
     elif request_method == 'GET':
-        r = requests.get(url=api_host+request_url, params=request_data,headers=headers)
+        r = requests.get(url=api_host+request_url+"?"+request_data,headers=headers)
         ##判断如果返回headers中，如果有token，则进行保存
         if re.search("token=", str(r.headers)):
             correlationDict['token'] = r.headers['Set-Cookie'].split(';')[0].split('=')[1]

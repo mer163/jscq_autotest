@@ -34,14 +34,15 @@ def main(list):
     # log_file = os.path.join(
     #     u'E:\git\local\mock\interfacetest\log\log' + datatime + '.txt')
     # log_file = os.path.join('/var/www/testcase/logs/log.txt')
-    log_file = os.path.join('/var/www/testcase/logs/log' + datatime + '.txt')
+    log_file = os.path.join('/Users/admin/Downloads/logs/log' + datatime + '.txt')
+    # log_file = os.path.join('/var/www/testcase/logs/log' + datatime + '.txt')
     f = open(log_file, 'a')
     f.write('\r')
     f.close()
     # 创建html报告文件，以加方式打开创建文件
-    # result_file = os.path.join(u'E:\git\local\mock\interfacetest\\results\\result' + datatime + '.html')
-    # result_file = os.path.join('/var/www/testcase/result.html')
-    result_file = os.path.join('/var/www/testcase/results/result_'+ datatime + '.html')
+
+    result_file = os.path.join('/Users/admin/Downloads/logs/result_' + datatime + '.html')
+    # result_file = os.path.join('/var/www/testcase/results/result_'+ datatime + '.html')
     f = open(result_file, 'a')
     f.write('\r')
     f.close()

@@ -1,6 +1,6 @@
 Dear {{ user.username }},
 
-Welcome to 智宝无限测试管理平台!
+Welcome to 金世传奇测试管理平台!
 
 To confirm your account please click on the following link:
 
@@ -8,6 +8,6 @@ To confirm your account please click on the following link:
 
 Sincerely,
 
-智宝无限测试组
+金世传奇测试组
 
 Note: replies to this email address are not monitored.

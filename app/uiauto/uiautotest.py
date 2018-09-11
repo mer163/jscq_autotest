@@ -1061,6 +1061,10 @@ def tetlink():
 def confluence():
     return render_template("util/confluence.html")
 
+@uiautotest.route('wiki')
+def wiki():
+    return render_template("util/wiki.html")
+
 @uiautotest.route('/getDeviceList')
 def getDeviceList():
     r =requests.get('http://192.168.0.24:20092/list')

@@ -1019,21 +1019,21 @@ def power():
     return render_template("util/power.html")
 
 #新增文件共享
-@uiautotest.route('fileshare')
+@uiautotest.route('/fileshare')
 def fileshare():
     return render_template("util/fileshare.html")
 
 #新增Hitchhiker接口自动化
-@uiautotest.route('hitchhiker')
+@uiautotest.route('/hitchhiker')
 def hitchhiker():
     return render_template("util/hitchhiker.html")
 
 #新增wedtor元素chaka
-@uiautotest.route('weditor')
+@uiautotest.route('/weditor')
 def weditor():
     return render_template("util/weditor.html")
 
-@uiautotest.route('interfacetestcases')
+@uiautotest.route('/interfacetestcases')
 def interfacecases():
     if not current_user.is_authenticated:
         response = redirect('/auth/login',code=302,Response=None)
@@ -1041,7 +1041,7 @@ def interfacecases():
     else:
         return render_template("util/interfacetestcases.html")
 
-@uiautotest.route('interfacemock')
+@uiautotest.route('/interfacemock')
 def interfacemock():
     if not current_user.is_authenticated:
         response = redirect('/auth/login',code=302,Response=None)
@@ -1049,11 +1049,11 @@ def interfacemock():
     else:
         return render_template("util/interfacemock.html")
 
-@uiautotest.route('jira')
+@uiautotest.route('/jira')
 def jira():
     return render_template("util/jira.html")
 
-@uiautotest.route('getDeviceList')
+@uiautotest.route('/getDeviceList')
 def getDeviceList():
     r =requests.get('http://192.168.0.24:20092/list')
     # r.text

@@ -81,7 +81,7 @@ var TableInit = function () {
                 title: '操作',
                 align: 'center',
                 formatter: function (value, row, index) {
-                        var a = '<a href="javascript:;" onclick="window.location.href=(\'/autotestedit_test_case?id='+ row.id + '\')">编辑</a> ';
+                        var a = '<a href="javascript:;" onclick="window.location.href=(\'/autotest/edit_test_case?id='+ row.id + '\')">编辑</a> ';
                         var b = '<a href="javascript:;" onclick="copy_test_case(\'' + row.id + '\')">复制</a> ';
                         var c = '<a href="javascript:;" onclick="run_test_case(\'' + row.id + '\')">执行</a> ';
                         var d = '<a href="javascript:;" onclick="window.location.href=(\'/autotest/test_case_runhistory?id='+ row.id + '\')">执行结果</a> ';

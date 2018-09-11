@@ -1028,7 +1028,7 @@ def fileshare():
 def hitchhiker():
     return render_template("util/hitchhiker.html")
 
-#新增wedtor元素chaka
+#新增wedtor元素chakan
 @uiautotest.route('/weditor')
 def weditor():
     return render_template("util/weditor.html")
@@ -1053,17 +1053,13 @@ def interfacemock():
 def jira():
     return render_template("util/jira.html")
 
+@uiautotest.route('/testlink')
+def tetlink():
+    return render_template("util/testlink.html")
+
 @uiautotest.route('/getDeviceList')
 def getDeviceList():
     r =requests.get('http://192.168.0.24:20092/list')
-    # r.text
-    # jsonobj = json.dumps(r.text)
-    # print(r.text)
-    # jsonobj = r.json()
-    # return json.loads(r.text)
-    # return jsonobj[0]["ip"]
-    # print(r.json())
-    print()
     return jsonify(r.text)
 
 # 单元测试详情

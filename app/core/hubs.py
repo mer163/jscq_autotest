@@ -1,4 +1,4 @@
-from app import useDB, config
+from app import useDB, autotestconfig
 from app.core import log,util
 import json
 class hubs():
@@ -112,7 +112,7 @@ class hubs():
         return results
 
     def getDevices(self):
-        url = config.ATXHost + '/list'
+        url = autotestconfig.ATXHost + '/list'
         response, content = util.util().send(url)
         content = json.loads(content)
         deviceList = []
@@ -126,7 +126,7 @@ class hubs():
 
     # 获取设备列表信息
     def getDevicesList(self):
-        url = config.ATXHost + '/list'
+        url = autotestconfig.ATXHost + '/list'
         response, content = util.util().send(url)
         content = json.loads(content)
         deviceLists = []

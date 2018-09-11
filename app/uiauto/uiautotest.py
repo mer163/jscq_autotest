@@ -1057,6 +1057,10 @@ def jira():
 def tetlink():
     return render_template("util/testlink.html")
 
+@uiautotest.route('/confluence')
+def confluence():
+    return render_template("util/confluence.html")
+
 @uiautotest.route('/getDeviceList')
 def getDeviceList():
     r =requests.get('http://192.168.0.24:20092/list')

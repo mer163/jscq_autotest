@@ -61,7 +61,7 @@
         console.log("test")
         $.ajax({
         method: 'get',
-        url: "/getDeviceList",
+        url: "/autotest/getDeviceList",
         type: 'json',
       }).then(function(deviceip) {
         $('#ip').val(JSON.parse(deviceip)[0].ip) ;

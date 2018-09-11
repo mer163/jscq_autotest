@@ -1061,7 +1061,7 @@ def tetlink():
 def confluence():
     return render_template("util/confluence.html")
 
-@uiautotest.route('wiki')
+@uiautotest.route('/wiki')
 def wiki():
     return render_template("util/wiki.html")
 

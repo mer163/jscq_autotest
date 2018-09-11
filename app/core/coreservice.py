@@ -1,6 +1,7 @@
 import time
 
-from app.core import process, log
+from app.core import process
+from app.core import  log
 from app.db import test_task_manage
 
 

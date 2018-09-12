@@ -68,7 +68,7 @@ def save_new_test_case():
                     isPublic = 0
                 test_case_manage.test_case_manage().new_test_case(module, name, steps, description, isPublic)
             # return render_template("test_cases.html")
-            return redirect('test_cases')
+            return redirect('/autotest/test_cases')
 
 @uiautotest.route('/edit_test_case', methods=['POST', 'GET'])
 def edit_test_case():
@@ -783,7 +783,7 @@ def save_new_test_keyword():
         template =  getInfoAttribute(info,'template')
         example =  getInfoAttribute(info, 'example')
         result0 = test_keyword_manage.test_keyword_manage().new_test_keyword(name, paraCount, description, template,example)
-        return redirect('/testkeywords')
+        return redirect('/autotest/testkeywords')
 
 @uiautotest.route('/edit_test_keyword', methods=['POST', 'GET'])
 def edit_test_keyword():
@@ -810,7 +810,7 @@ def edit_test_keyword():
             template =  getInfoAttribute(info,'template')
             example =  getInfoAttribute(info, 'example')
             result = test_keyword_manage.test_keyword_manage().update_test_keyword(id,["keyword", "paraCount", "description", "template","example"],[name, paraCount, description, template,example])
-            return redirect('/testkeywords')
+            return redirect('/autotest/testkeywords')
 
 @uiautotest.route('/copy_test_keyword', methods=['POST', 'GET'])
 def copy_test_keyword():

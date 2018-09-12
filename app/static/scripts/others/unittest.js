@@ -170,7 +170,7 @@ function operateFormatter(value, row, index) {
 
 window.operateEvents = {
             'click .RoleOfEdit': function (e, value, row, index) {
-                window.location.href=('/add_test_case');
+                window.location.href=('/autotest/add_test_case');
          },
             'click .RoleOfDelete': function (e, value, row, index) {
                 alert("B");

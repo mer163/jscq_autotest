@@ -5,8 +5,7 @@
 2、flask web框架  
 3、HTML、css、js  
 4、selenium chromedriver firefoxdriver  
-5、Python requests  
-
+5、Python requests     
 
 **_`安装部署`_**  
 1、安装依赖  

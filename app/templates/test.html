@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="/static/css/index.css"/>
+	<script type="text/javascript" src="/static/js/config.js"></script>
+	<title>金世传奇接口测试用例管理平台</title>
+</head>
+<body>
+	<div class="wrap">
+		<div class="header clearfix">
+			<h1 class="page-title">金世传奇接口测试用例管理平台</h1>
+			<div class="ctrl clearfix">
+				<div class="file-up">
+					<p class="file-tip">批量导入EXCEL数据:</p>
+					<input id="fileupload" type="file" name="files[]" data-url="" multiple>					
+				</div>
+				<a href="all.html" class="checkresult-btn" id="run-all">查看结果</a>
+				<a href="javascript:void(0)" class="runall-btn" id="run-all" onclick="runAll();">执行所有</a>
+				<a href="javascript:void(0)" class="runselect-btn" id="run-sel" onclick="run();">执行所选</a>
+				<a href="javascript:void(0)" class="del-btn" onclick="del();">- 删除</a>
+				<a href="javascript:void(0)" class="add-btn" id="add-btn">+ 新增</a>				
+				<div class="search-box">
+					<input type="text" placeholder="请输入搜索名称" />
+					<a href="javascript:void(0)" class="search-btn" onclick="getAllData();">搜索</a>
+				</div>
+				<select name="" class="myselect product-name">
+					<option value="0" hidden>请选择项目名称</option>
+					<option value="0">全部</option>
+				</select>
+			</div>
+		</div>
+		<div class="cont">
+			<table border="0" cellspacing="0" cellpadding="0" width="96%" class="msg-table" id="msg-table">
+				<tr>
+					<th width="5%"><i class="myckbox myckbox-normal" id="selectAll" onclick="selectAll('#msg-table');"></i></th>
+					<th width="10%">ID</th>
+					<th width="10%">名称</th>
+					<th width="10%">请求方式</th>
+					<th width="15%">所属项目</th>
+					<th width="15%">环境</th>
+					<th width="15%">检查点</th>
+					<th width="15%">关联</th>
+					<th width="15%">接口名称</th>
+					<th width="20%">描述</th>
+					<th width="20%">更新时间</th>
+					<th width="10%">激活状态</th>
+					<th width="5%"></th>
+				</tr>
+			</table>
+			<div class="page" id="page"></div>
+		</div>
+	</div>
+
+	<!--pop-->
+	<div class="ctrl-pop hidden">
+		<div class="pop-bg"></div>
+		<div class="pop">
+			<h2 class="pop-tit">+ 新增</h2>
+			<div class="pop-cont">
+				<dl>
+					<dt>名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称：</dt>
+					<dd><input type="text" placeholder="请输入接口名称" class="r-title" /></dd>
+				</dl>
+				<dl>
+					<dt>方法名称：</dt>
+					<dd><input type="text" placeholder="请输入接口名称" class="r-domain" /></dd>
+				</dl>
+				<dl>
+					<dt>所属项目：</dt>
+					<dd>
+						<input type="text" placeholder="请输入所属项目" class="source-object" />
+					</dd>
+				</dl>
+				<dl>
+					<dt>请求方式：</dt>
+					<dd>
+						<select name="" class="r-method">
+							<option value="" class="method-sed" hidden="hidden"></option>
+							<option value="get">get</option>
+							<option value="post">post</option>
+						</select>
+					</dd>
+				</dl>
+				<dl>
+					<dt>环&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;境：</dt>
+					<dd><input type="text" placeholder="请输入环境内容" class="r-env" /></dd>
+				</dl>
+				<dl>
+					<dt>检查点：</dt>
+					<dd><input type="text" placeholder="请输入检查点内容" class="check-point" /></dd>
+				</dl>
+				<dl>
+					<dt>关&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联：</dt>
+					<dd><input type="text" placeholder="请输入关联内容" class="r-rel" /></dd>
+				</dl>
+				<dl>
+					<dt>请求参数：</dt>
+					<dd>
+						<textarea class="r-reqparams" name="" rows="" cols=""></textarea>
+					</dd>
+				</dl>
+				<dl style="display: none;">
+					<dt>期待返回：</dt>
+					<dd>
+						<textarea class="r-resparams" name="" rows="" cols=""></textarea>
+					</dd>
+				</dl>					
+				<dl>
+					<dt>描&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;述：</dt>
+					<dd>
+						<textarea class="r-des" name="" rows="" cols=""></textarea>
+					</dd>
+				</dl>
+				<dl style="display: none;">
+					<dt>是否校验参数：</dt>
+					<dd>
+						<i class="myckbox myckbox-normal isJYrequst" onclick="mycheckbox();"></i>
+					</dd>
+				</dl>
+			</div>
+			<a href="javascript:void(0)" class="sure" data-type="add" onclick="add();">确定</a>
+			<a href="javascript:void(0)" class="cancle">取消</a>
+		</div>
+	</div>
+
+	<script src="/static/js/jquery-1.8.3.min.js"></script>
+	<script src="/static/js/jqPaginator.min.js"></script>
+	<script src="/static/js/fn.js"></script>
+	<script src="/static/js/indexJQ.js"></script>
+	<!--fiel up-->
+	<script src="/static/js/jQuery-File-Upload-master/jquery.ui.widget.js"></script>
+	<script src="/static/js/jQuery-File-Upload-master/jquery.iframe-transport.js"></script>
+	<script src="/static/js/jQuery-File-Upload-master/jquery.fileupload.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>接口测试报告</title>
+		<style type="text/css">
+			td{ width:40px; height:50px;}
+		</style>
+	</head>
+	<body>
+	
+<div style='width: 1170px;margin-left: 20%'>
+<h1>接口测试的结果</h1>
+		<p><strong>开始时间:</strong> 2017-10-16 18:54:40.186319</p>
+		<p><strong>结束时间:</strong> 2017-10-16 18:54:41.269466</p>
+		<p><strong>耗时:</strong> 0:00:01.083147</p>
+		<p><strong>结果:</strong>
+			<span >Pass: <strong >8</strong>
+			Fail: <strong >0</strong>
+			        </span></p>                  
+			    <p ><strong>测试详情如下</strong></p>  </div> 
+
+
+        <p>&nbsp;</p>
+        <table border='2'cellspacing='1' cellpadding='1' width='1100'align="center" >
+		<tr >
+            <td ><strong>用例ID&nbsp;</strong></td>
+            <td><strong>用例名字</strong></td>
+            <td><strong>请求参数</strong></td>
+            <td><strong>url</strong></td>
+            <td><strong>请求方式</strong></td>
+            <td><strong>预期</strong></td>
+            <td><strong>实际返回</strong></td>  
+            <td><strong>结果</strong></td>
+        </tr>
+     
+        <tr>
+            <td>69</td>
+            <td>登录</td>
+       
+            <td>ts=12123&lat=0&mobile=15010279361&dealPwd=MTIzNDU2&platform=1&shareCode=a001348&version=1.2.4&intoType=1&lng=0</td>
+            <td>/chsea_app/exchange/login</td>
+            <td>POST</td>
+            <td>0</td>
+            <td>{"resultCode":"0","msg":"成功","uid":"947789","mobile":null,"nickname":"","headPortraitUrl":"http://headimg-10040303.file.myqcloud.com/2017/7/31/9477891501482115811201707311421550.png","isTicket":0,"needBindWX":1,"errorUrl":null,"realnameAcount":0}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+        <tr>
+            <td>71</td>
+            <td>账户信息
+</td>
+       
+            <td>ts=1234231&uid=947789</td>
+            <td>/chsea_app/exchange/accountInfoList</td>
+            <td>POST</td>
+            <td>0</td>
+            <td>{"resultCode":"0","msg":"成功","name":"马智诚","idnum":"13048119870409331x","isRealNameAccount":1,"accountList":[{"exchengeId":2,"exchengeName":"东北亚","balance":30195.24,"floatProfit":8.0,"withholding":0.0,"lockBalance":210.0,"position":0.0,"isActive":1,"ticketCount":0,"countMap":null},{"exchengeId":1,"exchengeName":"撮合","balance":1.0E7,"floatProfit":0.0,"withholding":0.0,"lockBalance":0.0,"position":0.0,"isActive":1,"ticketCount":0,"countMap":null}]}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+        <tr>
+            <td>72</td>
+            <td>银建仓</td>
+       
+            <td>price=&count=1&intoType=1&ts=1234231&zy=0&itemid=1&buyType=0&dir=U&source=2&uid=947789&spread=0&payType=0&ticketid=0&zs=0</td>
+            <td>/chsea_app/exchange/buy</td>
+            <td>GET</td>
+            <td>0</td>
+            <td>{"resultCode":"0","msg":"成功","txid":3127,"planid":0,"price":3702.0,"depositMoney":30.0,"payType":0,"sellfee":3.6,"buyDate":1508151281000,"userTicket":0,"ticketValue":0.0,"expireDate":null,"isTicket":0}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+        <tr>
+            <td>73</td>
+            <td>润滑剂建仓</td>
+       
+            <td>price=&count=1&intoType=1&ts=1234231&zy=0&itemid=5&buyType=0&dir=D&source=2&uid=947789&spread=0&payType=0&ticketid=0&zs=0</td>
+            <td>/chsea_app/exchange/buy</td>
+            <td>GET</td>
+            <td>0</td>
+            <td>{"resultCode":"0","msg":"成功","txid":3128,"planid":0,"price":343.34,"depositMoney":200.0,"payType":0,"sellfee":27.0,"buyDate":1508151281000,"userTicket":0,"ticketValue":0.0,"expireDate":null,"isTicket":0}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+        <tr>
+            <td>74</td>
+            <td>铜建仓</td>
+       
+            <td>price=&count=1&intoType=1&ts=1234231&zy=0&itemid=14&buyType=0&dir=U&source=2&uid=947789&spread=0&payType=0&ticketid=0&zs=0</td>
+            <td>/chsea_app/exchange/buy</td>
+            <td>GET</td>
+            <td>0</td>
+            <td>{"resultCode":"0","msg":"成功","txid":3129,"planid":0,"price":46843.0,"depositMoney":50.0,"payType":0,"sellfee":6.0,"buyDate":1508151281000,"userTicket":0,"ticketValue":0.0,"expireDate":null,"isTicket":0}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+        <tr>
+            <td>75</td>
+            <td>银平仓
+</td>
+       
+            <td>ts=1341324&source=2&orderid=3127</td>
+            <td>/chsea_app/exchange/sell</td>
+            <td>GET</td>
+            <td>0</td>
+            <td>{"resultCode":"0","msg":"成功","content":null,"deliveryContent":null,"buyPrice":3702.0,"sellPrice":3702.0,"sellCount":1,"sellFee":3.6,"nightFee":0.0,"nightCount":0,"finalFloat":0.0,"sellDate":1508151281000,"buyDate":1508151281000,"lastDate":1508151281000}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+        <tr>
+            <td>76</td>
+            <td>润滑剂平仓
+</td>
+       
+            <td>ts=1341324&source=2&orderid=3128</td>
+            <td>/chsea_app/exchange/sell</td>
+            <td>GET</td>
+            <td>0</td>
+            <td>{"resultCode":"0","msg":"成功","content":null,"deliveryContent":null,"buyPrice":343.34,"sellPrice":343.34,"sellCount":1,"sellFee":27.0,"nightFee":0.0,"nightCount":0,"finalFloat":0.0,"sellDate":1508151281000,"buyDate":1508151281000,"lastDate":1508151281000}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+        <tr>
+            <td>77</td>
+            <td>铜平仓
+</td>
+       
+            <td>ts=1341324&source=2&orderid=3129</td>
+            <td>/chsea_app/exchange/sell</td>
+            <td>GET</td>
+            <td>0</td>
+            <td>{"resultCode":"0","msg":"成功","content":null,"deliveryContent":null,"buyPrice":46843.0,"sellPrice":46843.0,"sellCount":1,"sellFee":6.0,"nightFee":0.0,"nightCount":0,"finalFloat":0.0,"sellDate":1508151281000,"buyDate":1508151281000,"lastDate":1508151281000}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+	</table>
+	
+    </body>
+    </html>

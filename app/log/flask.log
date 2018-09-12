@@ -1,3 +1,0 @@
-2018-09-06 17:34:31,545 - [hubs.py: 40] -INFO: add new hub to available: 192.168.0.24:4444, 0
-2018-09-06 18:39:04,696 - [hubs.py: 40] -INFO: add new hub to available: 129.28.65.165:4444, 0
-2018-09-06 18:53:05,572 - [hubs.py: 45] -INFO: update hub to available: 129.28.65.165:4444,0

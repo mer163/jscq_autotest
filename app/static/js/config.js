@@ -3,5 +3,5 @@
 //var mockUrl="http://localhost:5002/mock";
 
 
-var myUrl="http://192.168.0.24:20088/testcases";
-var mockUrl="http://192.168.0.24:20088/mock";
+var myUrl="/testcases";
+var mockUrl="/mock";

@@ -31,7 +31,8 @@ def direct():
 
 @app.route('/testabort')
 def testabort():
-    abort(404)
+    pass
+    # abort(404)
 
 @app.route('/test')
 def test():

@@ -1,5 +1,7 @@
 ##**自动化平台本地测试环境**
 
+**url:https://github.com/mer163/jscq_autotest**
+
 ##**`_技术栈_`：**
 1、python3、golang  
 2、flask web框架  

@@ -1077,7 +1077,7 @@ def getDeviceList():
     #         # log.log().logger.info(device['ip'] + ' is not ready!')
     #         pass
     # return deviceList
-    # return jsonify(r.text)
+    return jsonify(r.text)
 
 # 单元测试详情
 @uiautotest.route('/view_unitest_result')

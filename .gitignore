@@ -5,4 +5,4 @@ migrations/
 monitor.log
 log.log
 *.jpg
-app/log/
+app/log/*

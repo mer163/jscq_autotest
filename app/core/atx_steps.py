@@ -72,13 +72,19 @@ class atx_driver():
             except requests.exceptions.ReadTimeout as e:
                 log.log().logger.error(e)
         time.sleep(2)
-        log.log().logger.info('trying to swipe up...')
-        u.swipe_points([(0.509, 0.601), (0.503, 0.149)], 0.2)
-        time.sleep(2)
-        log.log().logger.info('trying to start app...')
-        u.app_clear(package)
-        u.app_start(package, stop=True, unlock=True)
-        time.sleep(2)
+
+        try:
+            log.log().logger.info('trying to swipe up...')
+            u.swipe_points([(0.509, 0.601), (0.503, 0.149)], 0.2)
+            time.sleep(2)
+            log.log().logger.info('trying to start app...')
+            # u.app_clear(package)
+            u.app_start(package, stop=True, unlock=True)
+            time.sleep(2)
+        except:
+            log.log.logger.error(e)
+
+
         if self.is_app_exist(u, package):
             log.log().logger.info('package found, start testing!')
             time.sleep(2)

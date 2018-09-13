@@ -1,5 +1,5 @@
 from app.core import log, buildCase, atx_steps
-from app.db import test_batch_manage
+from app.db import test_batch_manage,test_case_manage
 import requests
 
 
@@ -56,6 +56,10 @@ class atx_core():
                                                                                                 caseNo, screenFileList)
                                 except requests.exceptions.ConnectionError as e:
                                     log.log().logger.error(e)
+                                    # 失败时需要将用例状态修改为失败。
+                                    fields = ['status']
+                                    values = [2]
+                                    test_case_manage.test_case_manage.update_test_case(caseNo, fields, values)
                                     result = 2
 
                                 if result == 2:

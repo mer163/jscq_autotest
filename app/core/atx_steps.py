@@ -1,5 +1,6 @@
 import requests
 import time
+from app.db import test_case_manage
 
 import uiautomator2 as ut2
 
@@ -217,32 +218,48 @@ class atx_driver():
             time.sleep(1)
         return u, result
 
+    def stop(self,u,package):
+
+        u.app_stop(package)
+        pass
+
+
     # run step.
     # if a new step type is defined, it should be added to the step_name list.
     def run_step(self, u, step_name, detail, caseNo, screenFileList):
         result = 1
-        if step_name == 'Android':
-            time.sleep(1)
-        elif step_name == '点击':
-            u, result = self.click(u, detail[0], detail[1])
-        elif step_name == '尝试点击':
-            self.click(u, detail[0], detail[1])
-        elif step_name == '等待':
-            time.sleep(int(detail[0]))
-        elif step_name == '发送':
-            u, result = self.sendData(u, detail[0])
-        elif step_name == '填写':
-            u, result = self.type_text(u, detail[0], detail[1], detail[2])
-        elif step_name == '返回':
-            u.adb_shell('input', 'keyevent', 'BACK')
-            time.sleep(1)
-        elif step_name == '截图':
-            screenFileList = self.take_screenshot(u, 'normal', caseNo, screenFileList)
-        else:
-            result = 2
-            log.log().logger.error('method is not defined : %s' % step_name)
-        if result == 0:
-            log.log().logger.error('package is not fould!')
-        elif result == 2:
-            screenFileList = self.take_screenshot(u, 'fail', caseNo, screenFileList)
+        try:
+
+            if step_name == 'Android':
+                time.sleep(1)
+            elif step_name == '点击':
+                u, result = self.click(u, detail[0], detail[1])
+            elif step_name == '尝试点击':
+                self.click(u, detail[0], detail[1])
+            elif step_name == '等待':
+                time.sleep(int(detail[0]))
+            elif step_name == '发送':
+                u, result = self.sendData(u, detail[0])
+            elif step_name == '填写':
+                u, result = self.type_text(u, detail[0], detail[1], detail[2])
+            elif step_name == '返回':
+                u.adb_shell('input', 'keyevent', 'BACK')
+                time.sleep(1)
+            elif step_name == '截图':
+                screenFileList = self.take_screenshot(u, 'normal', caseNo, screenFileList)
+            elif step_name == '关闭':
+                self.stop(u,detail[0])
+            else:
+                result = 2
+                log.log().logger.error('method is not defined : %s' % step_name)
+            if result == 0:
+                log.log().logger.error('package is not fould!')
+            elif result == 2:
+                screenFileList = self.take_screenshot(u, 'fail', caseNo, screenFileList)
+        except:
+            log.log().logger.error('error in  : %s' % step_name)
+            # 失败时需要将用例状态修改为失败。
+            fields = ['status']
+            values = [2]
+            test_case_manage.test_case_manage.update_test_case(self,caseNo, fields, values)
         return u, result, screenFileList

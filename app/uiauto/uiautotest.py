@@ -1068,7 +1068,16 @@ def wiki():
 @uiautotest.route('/getDeviceList')
 def getDeviceList():
     r =requests.get('http://192.168.0.24:20092/list')
-    return jsonify(r.text)
+    content = json.loads(r)
+    # deviceList = []
+    # for device in content:
+    #     if device['present']:
+    #         deviceList.append(device['ip'] + ':7912')
+    #     else:
+    #         # log.log().logger.info(device['ip'] + ' is not ready!')
+    #         pass
+    # return deviceList
+    # return jsonify(r.text)
 
 # 单元测试详情
 @uiautotest.route('/view_unitest_result')

@@ -4,3 +4,4 @@
 migrations/
 monitor.log
 log.log
+*.jpg

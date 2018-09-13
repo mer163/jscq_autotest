@@ -59,7 +59,7 @@ class atx_core():
                                     # 失败时需要将用例状态修改为失败。
                                     fields = ['status']
                                     values = [2]
-                                    test_case_manage.test_case_manage.update_test_case(caseNo, fields, values)
+                                    test_case_manage.test_case_manage.update_test_case(self,caseNo, fields, values)
                                     result = 2
 
                                 if result == 2:

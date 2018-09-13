@@ -3759,3 +3759,705 @@ Stacktrace:
 2018-09-12 09:15:03,073 - [process.py: 72] -INFO: driver.get("http://www.baidu.com")
 2018-09-12 09:15:06,801 - [keywords.py: 9] -INFO: 截图
 2018-09-12 09:15:07,960 - [process.py: 145] -INFO: id is 21878, result is 1, stepname is 截图
+2018-09-12 14:33:42,956 - [process.py: 27] -INFO: current case is : Firefox,前往|http://www.baidu.com,截图
+2018-09-12 14:35:51,552 - [coredriver.py: 19] -INFO: RUNTYPE is : Firefox
+2018-09-12 14:36:02,114 - [coredriver.py: 21] -INFO: [('192.168.0.24', '4444')]
+2018-09-12 14:36:18,464 - [coredriver.py: 13] -INFO: 0, 1
+2018-09-12 15:28:52,146 - [coredriver.py: 49] -INFO: {'browserName': 'firefox', 'marionette': True, 'acceptInsecureCerts': True}
+2018-09-12 15:28:59,768 - [coredriver.py: 53] -INFO: start session 1 time!
+2018-09-12 15:30:39,349 - [coredriver.py: 72] -INFO: 1033
+2018-09-12 15:30:48,731 - [keywords.py: 9] -INFO: 前往
+2018-09-12 15:31:35,066 - [process.py: 72] -INFO: driver.get("http://www.baidu.com")
+2018-09-12 15:31:52,878 - [keywords.py: 9] -INFO: 截图
+2018-09-12 15:32:36,964 - [process.py: 145] -INFO: id is 21880, result is 1, stepname is 截图
+2018-09-12 17:14:56,546 - [hubs.py: 140] -INFO: 192.168.0.239 is not ready!
+2018-09-12 17:14:56,553 - [hubs.py: 140] -INFO: 192.168.0.217 is not ready!
+2018-09-12 17:14:56,554 - [hubs.py: 140] -INFO: 192.168.0.151 is not ready!
+2018-09-12 17:14:56,555 - [hubs.py: 140] -INFO: 192.168.0.121 is not ready!
+2018-09-12 17:14:56,555 - [hubs.py: 140] -INFO: 192.168.0.97 is not ready!
+2018-09-12 17:15:27,958 - [hubs.py: 140] -INFO: 192.168.0.239 is not ready!
+2018-09-12 17:15:27,959 - [hubs.py: 140] -INFO: 192.168.0.217 is not ready!
+2018-09-12 17:15:27,960 - [hubs.py: 140] -INFO: 192.168.0.151 is not ready!
+2018-09-12 17:15:27,961 - [hubs.py: 140] -INFO: 192.168.0.121 is not ready!
+2018-09-12 17:15:27,961 - [hubs.py: 140] -INFO: 192.168.0.97 is not ready!
+2018-09-12 17:15:33,096 - [hubs.py: 140] -INFO: 192.168.0.239 is not ready!
+2018-09-12 17:15:33,097 - [hubs.py: 140] -INFO: 192.168.0.217 is not ready!
+2018-09-12 17:15:33,098 - [hubs.py: 140] -INFO: 192.168.0.151 is not ready!
+2018-09-12 17:15:33,099 - [hubs.py: 140] -INFO: 192.168.0.121 is not ready!
+2018-09-12 17:15:33,099 - [hubs.py: 140] -INFO: 192.168.0.97 is not ready!
+2018-09-12 17:15:40,142 - [hubs.py: 140] -INFO: 192.168.0.239 is not ready!
+2018-09-12 17:15:40,143 - [hubs.py: 140] -INFO: 192.168.0.217 is not ready!
+2018-09-12 17:15:40,144 - [hubs.py: 140] -INFO: 192.168.0.151 is not ready!
+2018-09-12 17:15:40,144 - [hubs.py: 140] -INFO: 192.168.0.121 is not ready!
+2018-09-12 17:15:40,145 - [hubs.py: 140] -INFO: 192.168.0.97 is not ready!
+2018-09-12 17:15:43,644 - [hubs.py: 140] -INFO: 192.168.0.239 is not ready!
+2018-09-12 17:15:43,645 - [hubs.py: 140] -INFO: 192.168.0.217 is not ready!
+2018-09-12 17:15:43,646 - [hubs.py: 140] -INFO: 192.168.0.151 is not ready!
+2018-09-12 17:15:43,647 - [hubs.py: 140] -INFO: 192.168.0.121 is not ready!
+2018-09-12 17:15:43,648 - [hubs.py: 140] -INFO: 192.168.0.97 is not ready!
+2018-09-12 17:44:13,404 - [process.py: 27] -INFO: current case is : Android|com.baiyinbao.app.ui,点击|id@@com.baiyinbao.app.ui:id/wo_img,等待|2,点击|com.baiyinbao.app.ui:id/tv_guanyu,等待|5,截图,
+2018-09-12 17:44:13,421 - [atx_core.py: 13] -INFO: {'id': 21881, 'ip': None}
+2018-09-12 17:44:13,422 - [atx_core.py: 14] -INFO: []
+2018-09-12 17:44:13,440 - [atx_steps.py: 31] -INFO: trying to connect device : 192.168.0.217:7912
+2018-09-12 17:44:13,569 - [atx_steps.py: 34] -INFO: {'udid': 'da38d28-3c:a6:16:68:af:5e-vivo_X20A', 'version': '7.1.1', 'serial': 'da38d28', 'brand': 'vivo', 'model': 'vivo X20A', 'hwaddr': '3c:a6:16:68:af:5e', 'sdk': 25, 'agentVersion': '0.4.3', 'display': {'width': 1080, 'height': 2160}, 'battery': {'acPowered': False, 'usbPowered': False, 'wirelessPowered': False, 'status': 3, 'health': 0, 'present': True, 'level': 46, 'scale': 100, 'voltage': 3838, 'temperature': 285, 'technology': 'Li-ion'}, 'memory': {'total': 3823368, 'around': '4 GB'}, 'cpu': {'cores': 8, 'hardware': 'Qualcomm Technologies, Inc SDM660'}, 'presenceChangedAt': '0001-01-01T00:00:00Z', 'usingBeganAt': '0001-01-01T00:00:00Z'}
+2018-09-12 17:44:13,570 - [atx_steps.py: 65] -INFO: trying to unlock...
+2018-09-12 17:44:17,303 - [atx_steps.py: 75] -INFO: trying to swipe up...
+2018-09-12 17:46:10,098 - [process.py: 27] -INFO: current case is : Android|com.baiyinbao.app.ui,点击|id@@com.baiyinbao.app.ui:id/wo_img,等待|2,点击|com.baiyinbao.app.ui:id/tv_guanyu,等待|5,截图,
+2018-09-12 17:46:10,114 - [atx_core.py: 13] -INFO: {'id': 21881, 'ip': None}
+2018-09-12 17:46:10,115 - [atx_core.py: 14] -INFO: []
+2018-09-12 17:46:10,133 - [atx_steps.py: 31] -INFO: trying to connect device : 192.168.0.217:7912
+2018-09-12 17:46:10,201 - [atx_steps.py: 34] -INFO: {'udid': 'da38d28-3c:a6:16:68:af:5e-vivo_X20A', 'version': '7.1.1', 'serial': 'da38d28', 'brand': 'vivo', 'model': 'vivo X20A', 'hwaddr': '3c:a6:16:68:af:5e', 'sdk': 25, 'agentVersion': '0.4.3', 'display': {'width': 1080, 'height': 2160}, 'battery': {'acPowered': False, 'usbPowered': False, 'wirelessPowered': False, 'status': 3, 'health': 0, 'present': True, 'level': 46, 'scale': 100, 'voltage': 3838, 'temperature': 285, 'technology': 'Li-ion'}, 'memory': {'total': 3823368, 'around': '4 GB'}, 'cpu': {'cores': 8, 'hardware': 'Qualcomm Technologies, Inc SDM660'}, 'presenceChangedAt': '0001-01-01T00:00:00Z', 'usingBeganAt': '0001-01-01T00:00:00Z'}
+2018-09-12 17:46:10,202 - [atx_steps.py: 65] -INFO: trying to unlock...
+2018-09-12 17:46:12,854 - [atx_steps.py: 75] -INFO: trying to swipe up...
+2018-09-12 17:51:04,501 - [process.py: 27] -INFO: current case is : Android|com.baiyinbao.app.ui,点击|id@@com.baiyinbao.app.ui:id/wo_img,等待|2,点击|com.baiyinbao.app.ui:id/tv_guanyu,等待|5,截图,
+2018-09-12 17:53:15,173 - [atx_core.py: 13] -INFO: {'id': 21881, 'ip': None}
+2018-09-12 17:53:20,216 - [atx_core.py: 14] -INFO: []
+2018-09-12 17:57:51,171 - [atx_steps.py: 31] -INFO: trying to connect device : 192.168.0.217:7912
+2018-09-12 17:57:51,323 - [atx_steps.py: 34] -INFO: {'udid': 'da38d28-3c:a6:16:68:af:5e-vivo_X20A', 'version': '7.1.1', 'serial': 'da38d28', 'brand': 'vivo', 'model': 'vivo X20A', 'hwaddr': '3c:a6:16:68:af:5e', 'sdk': 25, 'agentVersion': '0.4.3', 'display': {'width': 1080, 'height': 2160}, 'battery': {'acPowered': False, 'usbPowered': False, 'wirelessPowered': False, 'status': 3, 'health': 0, 'present': True, 'level': 46, 'scale': 100, 'voltage': 3838, 'temperature': 285, 'technology': 'Li-ion'}, 'memory': {'total': 3823368, 'around': '4 GB'}, 'cpu': {'cores': 8, 'hardware': 'Qualcomm Technologies, Inc SDM660'}, 'presenceChangedAt': '0001-01-01T00:00:00Z', 'usingBeganAt': '0001-01-01T00:00:00Z'}
+2018-09-12 17:57:51,326 - [atx_steps.py: 65] -INFO: trying to unlock...
+2018-09-12 17:57:54,972 - [atx_steps.py: 75] -INFO: trying to swipe up...
+2018-09-12 17:58:32,600 - [process.py: 27] -INFO: current case is : Android|com.baiyinbao.app.ui,点击|id@@com.baiyinbao.app.ui:id/wo_img,等待|2,点击|com.baiyinbao.app.ui:id/tv_guanyu,等待|5,截图,
+2018-09-12 17:58:36,516 - [atx_core.py: 13] -INFO: {'id': 21881, 'ip': None}
+2018-09-12 17:58:36,517 - [atx_core.py: 14] -INFO: []
+2018-09-12 18:00:59,774 - [atx_steps.py: 31] -INFO: trying to connect device : 192.168.0.217:7912
+2018-09-12 18:00:59,971 - [atx_steps.py: 34] -INFO: {'udid': 'da38d28-3c:a6:16:68:af:5e-vivo_X20A', 'version': '7.1.1', 'serial': 'da38d28', 'brand': 'vivo', 'model': 'vivo X20A', 'hwaddr': '3c:a6:16:68:af:5e', 'sdk': 25, 'agentVersion': '0.4.3', 'display': {'width': 1080, 'height': 2160}, 'battery': {'acPowered': False, 'usbPowered': False, 'wirelessPowered': False, 'status': 3, 'health': 0, 'present': True, 'level': 46, 'scale': 100, 'voltage': 3838, 'temperature': 285, 'technology': 'Li-ion'}, 'memory': {'total': 3823368, 'around': '4 GB'}, 'cpu': {'cores': 8, 'hardware': 'Qualcomm Technologies, Inc SDM660'}, 'presenceChangedAt': '0001-01-01T00:00:00Z', 'usingBeganAt': '0001-01-01T00:00:00Z'}
+2018-09-12 18:01:02,959 - [atx_steps.py: 65] -INFO: trying to unlock...
+2018-09-12 18:01:06,472 - [atx_steps.py: 75] -INFO: trying to swipe up...
+2018-09-13 10:12:25,226 - [process.py: 27] -INFO: current case is : Android|com.ylmall.app.ui,点击|id@@com.ylmall.app.ui:id/my_img,等待|2,点击|com.ylmall.app.ui:id/my_rightBtn,等待|5,截图,
+2018-09-13 10:18:18,487 - [atx_core.py: 13] -INFO: {'id': 21886, 'ip': None}
+2018-09-13 10:18:19,002 - [atx_core.py: 14] -INFO: []
+2018-09-13 10:26:44,598 - [atx_steps.py: 31] -INFO: trying to connect device : 192.168.0.239:7912
+2018-09-13 10:27:07,006 - [atx_steps.py: 34] -INFO: {'udid': '9DCQCMJZ598H8TIN-44:04:44:2b:44:ac-OPPO_R9m', 'version': '5.1', 'serial': '9DCQCMJZ598H8TIN', 'brand': 'OPPO', 'model': 'OPPO R9m', 'hwaddr': '44:04:44:2b:44:ac', 'sdk': 22, 'agentVersion': '0.4.3', 'display': {'width': 1080, 'height': 1920}, 'battery': {'acPowered': False, 'usbPowered': True, 'wirelessPowered': False, 'status': 5, 'health': 0, 'present': True, 'level': 100, 'scale': 100, 'voltage': 4285, 'temperature': 298, 'technology': 'Li-ion'}, 'memory': {'total': 3857680, 'around': '4 GB'}, 'cpu': {'cores': 2, 'hardware': 'MT6755'}, 'presenceChangedAt': '0001-01-01T00:00:00Z', 'usingBeganAt': '0001-01-01T00:00:00Z'}
+2018-09-13 10:28:05,085 - [atx_steps.py: 65] -INFO: trying to unlock...
+2018-09-13 10:28:46,379 - [atx_steps.py: 77] -INFO: trying to swipe up...
+2018-09-13 10:29:15,813 - [atx_steps.py: 80] -INFO: trying to start app...
+2018-09-13 10:29:38,573 - [atx_steps.py: 58] -INFO:         64f242d com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        34864d62 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        64f242d com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        34864d62 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        64f242d com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        34864d62 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+    versionCode=8 targetSdk=19
+    versionName=1.0.8
+
+2018-09-13 10:29:39,334 - [atx_steps.py: 89] -INFO: package found, start testing!
+2018-09-13 10:30:04,885 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , 允许
+2018-09-13 10:30:45,684 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , 始终允许
+2018-09-13 10:31:03,693 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , ALLOW
+2018-09-13 10:31:43,331 - [atx_core.py: 31] -INFO:  is 192.168.0.239:7912 connected?  1
+2018-09-13 10:31:50,436 - [atx_core.py: 33] -INFO: start runnning test on 192.168.0.239:7912
+2018-09-13 10:32:10,266 - [atx_core.py: 37] -INFO: current step is: Android|com.ylmall.app.ui
+2018-09-13 10:33:01,981 - [atx_core.py: 45] -INFO: Android
+2018-09-13 10:33:30,431 - [atx_core.py: 48] -INFO: ['com.ylmall.app.ui']
+2018-09-13 10:33:37,691 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 10:34:34,130 - [atx_core.py: 66] -INFO: finish step Android : ['com.ylmall.app.ui'].
+2018-09-13 10:34:42,943 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_img
+2018-09-13 10:34:59,796 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 10:35:01,631 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_img']
+2018-09-13 10:35:04,107 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 10:36:25,642 - [atx_core.py: 66] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_img'].
+2018-09-13 10:36:29,921 - [atx_core.py: 37] -INFO: current step is: 等待|2
+2018-09-13 10:36:31,567 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 10:36:32,527 - [atx_core.py: 48] -INFO: ['2']
+2018-09-13 10:36:33,728 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 10:36:46,571 - [atx_core.py: 66] -INFO: finish step 等待 : ['2'].
+2018-09-13 10:36:47,915 - [atx_core.py: 37] -INFO: current step is: 点击|com.ylmall.app.ui:id/my_rightBtn
+2018-09-13 10:37:05,878 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 10:37:07,342 - [atx_core.py: 48] -INFO: ['com.ylmall.app.ui:id/my_rightBtn']
+2018-09-13 10:37:14,241 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 10:49:13,797 - [process.py: 27] -INFO: current case is : Android|com.ylmall.app.ui,点击|id@@com.ylmall.app.ui:id/my_img,等待|2,点击|id@@com.ylmall.app.ui:id/my_rightBtn,等待|5,截图,
+2018-09-13 10:49:17,029 - [atx_core.py: 13] -INFO: {'id': 21886, 'ip': None}
+2018-09-13 10:49:17,030 - [atx_core.py: 14] -INFO: []
+2018-09-13 10:49:19,747 - [atx_steps.py: 31] -INFO: trying to connect device : 192.168.0.239:7912
+2018-09-13 10:49:20,747 - [atx_steps.py: 34] -INFO: {'udid': '9DCQCMJZ598H8TIN-44:04:44:2b:44:ac-OPPO_R9m', 'version': '5.1', 'serial': '9DCQCMJZ598H8TIN', 'brand': 'OPPO', 'model': 'OPPO R9m', 'hwaddr': '44:04:44:2b:44:ac', 'sdk': 22, 'agentVersion': '0.4.3', 'display': {'width': 1080, 'height': 1920}, 'battery': {'acPowered': False, 'usbPowered': False, 'wirelessPowered': False, 'status': 4, 'health': 0, 'present': True, 'level': 100, 'scale': 100, 'voltage': 4280, 'temperature': 300, 'technology': 'Li-ion'}, 'memory': {'total': 3857680, 'around': '4 GB'}, 'cpu': {'cores': 2, 'hardware': 'MT6755'}, 'presenceChangedAt': '0001-01-01T00:00:00Z', 'usingBeganAt': '0001-01-01T00:00:00Z'}
+2018-09-13 10:49:21,497 - [atx_steps.py: 65] -INFO: trying to unlock...
+2018-09-13 10:49:26,617 - [atx_steps.py: 77] -INFO: trying to swipe up...
+2018-09-13 10:49:30,504 - [atx_steps.py: 80] -INFO: trying to start app...
+2018-09-13 10:49:36,950 - [atx_steps.py: 58] -INFO:         64f242d com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        34864d62 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        64f242d com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        34864d62 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        64f242d com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        34864d62 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+    versionCode=8 targetSdk=19
+    versionName=1.0.8
+
+2018-09-13 10:49:36,951 - [atx_steps.py: 89] -INFO: package found, start testing!
+2018-09-13 10:49:43,133 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , 允许
+2018-09-13 10:49:46,206 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , 始终允许
+2018-09-13 10:49:48,961 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , ALLOW
+2018-09-13 10:49:49,968 - [atx_core.py: 31] -INFO:  is 192.168.0.239:7912 connected?  1
+2018-09-13 10:49:49,969 - [atx_core.py: 33] -INFO: start runnning test on 192.168.0.239:7912
+2018-09-13 10:49:49,970 - [atx_core.py: 37] -INFO: current step is: Android|com.ylmall.app.ui
+2018-09-13 10:49:49,971 - [atx_core.py: 45] -INFO: Android
+2018-09-13 10:49:49,971 - [atx_core.py: 48] -INFO: ['com.ylmall.app.ui']
+2018-09-13 10:49:49,972 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 10:49:51,828 - [atx_core.py: 70] -INFO: finish step Android : ['com.ylmall.app.ui'].
+2018-09-13 10:49:51,829 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_img
+2018-09-13 10:49:51,831 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 10:49:51,831 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_img']
+2018-09-13 10:49:51,832 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 10:50:05,941 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_img'].
+2018-09-13 10:50:05,942 - [atx_core.py: 37] -INFO: current step is: 等待|2
+2018-09-13 10:50:05,943 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 10:50:05,944 - [atx_core.py: 48] -INFO: ['2']
+2018-09-13 10:50:05,945 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 10:50:58,116 - [atx_core.py: 70] -INFO: finish step 等待 : ['2'].
+2018-09-13 10:50:58,117 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_rightBtn
+2018-09-13 10:50:58,118 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 10:50:58,119 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_rightBtn']
+2018-09-13 10:50:58,120 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 10:51:12,477 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_rightBtn'].
+2018-09-13 10:51:12,478 - [atx_core.py: 37] -INFO: current step is: 等待|5
+2018-09-13 10:51:12,480 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 10:51:12,480 - [atx_core.py: 48] -INFO: ['5']
+2018-09-13 10:51:12,481 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 10:51:20,521 - [atx_core.py: 70] -INFO: finish step 等待 : ['5'].
+2018-09-13 10:51:20,522 - [atx_core.py: 37] -INFO: current step is: 截图
+2018-09-13 10:51:20,523 - [atx_core.py: 45] -INFO: 截图
+2018-09-13 10:51:20,524 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 10:51:24,177 - [atx_core.py: 70] -INFO: finish step 截图 : [].
+2018-09-13 10:51:24,178 - [atx_core.py: 37] -INFO: current step is: 
+2018-09-13 10:51:24,180 - [process.py: 37] -INFO: 1, 截图, ['/static/screenshot/normalScreenShot/21886_success2018-09-13_10_51_23.jpg']
+2018-09-13 10:51:24,183 - [process.py: 145] -INFO: id is 21886, result is 1, stepname is 截图
+2018-09-13 11:44:08,608 - [process.py: 160] -INFO: Run type is ATX and usable devices are ['192.168.0.239:7912', '192.168.0.186:7912']
+2018-09-13 11:46:04,535 - [process.py: 160] -INFO: Run type is ATX and usable devices are ['192.168.0.239:7912', '192.168.0.186:7912']
+2018-09-13 11:48:21,668 - [process.py: 160] -INFO: Run type is ATX and usable devices are ['192.168.0.186:7912']
+2018-09-13 12:04:36,252 - [process.py: 160] -INFO: Run type is ATX and usable devices are ['192.168.0.186:7912']
+2018-09-13 12:04:36,280 - [util.py: 19] -INFO: [(21887, 'Android|com.ylmall.app.ui,点击|id@@com.ylmall.app.ui:id/my_img,等待|2,点击|id@@com.ylmall.app.ui:id/my_rightBtn,等待|5,截图,', '')]
+2018-09-13 12:04:36,281 - [process.py: 183] -INFO: start time: Thu Sep 13 12:04:36 2018
+2018-09-13 12:04:36,297 - [util.py: 19] -INFO: []
+2018-09-13 12:04:36,313 - [util.py: 19] -INFO: []
+2018-09-13 12:04:36,325 - [util.py: 19] -INFO: [(21887, 'Android|com.ylmall.app.ui,点击|id@@com.ylmall.app.ui:id/my_img,等待|2,点击|id@@com.ylmall.app.ui:id/my_rightBtn,等待|5,截图,', '')]
+2018-09-13 12:04:36,326 - [process.py: 212] -INFO: current list lenth is: 1
+2018-09-13 12:04:36,326 - [process.py: 219] -INFO: start test by multiple devices :21887 
+2018-09-13 12:04:36,327 - [process.py: 221] -INFO: 打点我是第0个线程，ip: 192.168.0.186:7912, 测试用例：21887
+2018-09-13 12:04:36,387 - [process.py: 27] -INFO: current case is : Android|com.ylmall.app.ui,点击|id@@com.ylmall.app.ui:id/my_img,等待|2,点击|id@@com.ylmall.app.ui:id/my_rightBtn,等待|5,截图,
+2018-09-13 12:04:36,405 - [atx_core.py: 13] -INFO: {'id': 21887, 'ip': '192.168.0.186:7912'}
+2018-09-13 12:04:36,406 - [atx_core.py: 14] -INFO: ['192.168.0.186:7912']
+2018-09-13 12:04:36,407 - [atx_core.py: 17] -INFO: ['192.168.0.186:7912']
+2018-09-13 12:04:36,407 - [atx_steps.py: 31] -INFO: trying to connect device : 192.168.0.186:7912
+2018-09-13 12:04:36,524 - [atx_steps.py: 34] -INFO: {'udid': '760BBL622HDQ-38:bc:1a:d7:e0:08-MX4_Pro', 'version': '5.1.1', 'serial': '760BBL622HDQ', 'brand': 'Meizu', 'model': 'MX4 Pro', 'hwaddr': '38:bc:1a:d7:e0:08', 'sdk': 22, 'agentVersion': '0.4.3', 'display': {'width': 1536, 'height': 2560}, 'battery': {'acPowered': False, 'usbPowered': True, 'wirelessPowered': False, 'status': 2, 'health': 0, 'present': True, 'level': 51, 'scale': 100, 'voltage': 3944, 'temperature': 339, 'technology': 'Li-poly'}, 'memory': {'total': 2851108, 'around': '3 GB'}, 'cpu': {'cores': 2, 'hardware': 'M76'}, 'presenceChangedAt': '0001-01-01T00:00:00Z', 'usingBeganAt': '0001-01-01T00:00:00Z'}
+2018-09-13 12:04:36,524 - [atx_steps.py: 65] -INFO: trying to unlock...
+2018-09-13 12:04:40,316 - [atx_steps.py: 77] -INFO: trying to swipe up...
+2018-09-13 12:04:42,605 - [process.py: 160] -INFO: Run type is ATX and usable devices are ['192.168.0.186:7912']
+2018-09-13 12:04:42,634 - [util.py: 19] -INFO: []
+2018-09-13 12:04:42,635 - [process.py: 188] -INFO: no test case is needed!
+2018-09-13 12:04:43,329 - [atx_steps.py: 80] -INFO: trying to start app...
+2018-09-13 12:04:48,844 - [process.py: 160] -INFO: Run type is ATX and usable devices are ['192.168.0.186:7912']
+2018-09-13 12:04:48,873 - [util.py: 19] -INFO: []
+2018-09-13 12:04:48,874 - [process.py: 188] -INFO: no test case is needed!
+2018-09-13 12:04:49,429 - [atx_steps.py: 58] -INFO:         df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+    versionCode=12 targetSdk=19
+    versionName=1.1.2
+
+2018-09-13 12:04:49,430 - [atx_steps.py: 89] -INFO: package found, start testing!
+2018-09-13 12:04:51,577 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , 允许
+2018-09-13 12:04:53,294 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , 始终允许
+2018-09-13 12:04:54,341 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , ALLOW
+2018-09-13 12:04:55,049 - [process.py: 160] -INFO: Run type is ATX and usable devices are ['192.168.0.186:7912']
+2018-09-13 12:04:55,076 - [util.py: 19] -INFO: []
+2018-09-13 12:04:55,077 - [process.py: 188] -INFO: no test case is needed!
+2018-09-13 12:04:55,347 - [atx_core.py: 31] -INFO:  is 192.168.0.186:7912 connected?  1
+2018-09-13 12:04:55,349 - [atx_core.py: 33] -INFO: start runnning test on 192.168.0.186:7912
+2018-09-13 12:04:55,350 - [atx_core.py: 37] -INFO: current step is: Android|com.ylmall.app.ui
+2018-09-13 12:04:55,350 - [atx_core.py: 45] -INFO: Android
+2018-09-13 12:04:55,351 - [atx_core.py: 48] -INFO: ['com.ylmall.app.ui']
+2018-09-13 12:04:55,351 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 12:04:56,357 - [atx_core.py: 70] -INFO: finish step Android : ['com.ylmall.app.ui'].
+2018-09-13 12:04:56,358 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_img
+2018-09-13 12:04:56,359 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 12:04:56,360 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_img']
+2018-09-13 12:04:56,361 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 12:04:56,510 - [atx_steps.py: 181] -ERROR: 出错了，没有找到元素！ by id , com.ylmall.app.ui:id/my_img
+2018-09-13 12:05:00,012 - [atx_core.py: 66] -ERROR: failed at 点击 : ['id', 'com.ylmall.app.ui:id/my_img'], try again!
+2018-09-13 12:05:00,013 - [atx_core.py: 53] -INFO: try time: 2
+2018-09-13 12:05:01,229 - [process.py: 160] -INFO: Run type is ATX and usable devices are ['192.168.0.186:7912']
+2018-09-13 12:05:01,259 - [util.py: 19] -INFO: []
+2018-09-13 12:05:01,259 - [process.py: 188] -INFO: no test case is needed!
+2018-09-13 12:05:07,482 - [process.py: 160] -INFO: Run type is ATX and usable devices are ['192.168.0.186:7912']
+2018-09-13 12:05:07,516 - [util.py: 19] -INFO: []
+2018-09-13 12:05:07,516 - [process.py: 188] -INFO: no test case is needed!
+2018-09-13 12:05:09,682 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_img'].
+2018-09-13 12:05:09,682 - [atx_core.py: 37] -INFO: current step is: 等待|2
+2018-09-13 12:05:09,683 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 12:05:09,683 - [atx_core.py: 48] -INFO: ['2']
+2018-09-13 12:05:09,684 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 12:05:11,688 - [atx_core.py: 70] -INFO: finish step 等待 : ['2'].
+2018-09-13 12:05:11,689 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_rightBtn
+2018-09-13 12:05:11,690 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 12:05:11,690 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_rightBtn']
+2018-09-13 12:05:11,691 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 12:05:13,269 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_rightBtn'].
+2018-09-13 12:05:13,269 - [atx_core.py: 37] -INFO: current step is: 等待|5
+2018-09-13 12:05:13,270 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 12:05:13,270 - [atx_core.py: 48] -INFO: ['5']
+2018-09-13 12:05:13,270 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 12:05:13,681 - [process.py: 160] -INFO: Run type is ATX and usable devices are ['192.168.0.186:7912']
+2018-09-13 12:05:13,708 - [util.py: 19] -INFO: []
+2018-09-13 12:05:13,708 - [process.py: 188] -INFO: no test case is needed!
+2018-09-13 12:05:18,275 - [atx_core.py: 70] -INFO: finish step 等待 : ['5'].
+2018-09-13 12:05:18,276 - [atx_core.py: 37] -INFO: current step is: 截图
+2018-09-13 12:05:18,276 - [atx_core.py: 45] -INFO: 截图
+2018-09-13 12:05:18,276 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 12:05:19,698 - [atx_core.py: 70] -INFO: finish step 截图 : [].
+2018-09-13 12:05:19,699 - [atx_core.py: 37] -INFO: current step is: 
+2018-09-13 12:05:19,699 - [process.py: 37] -INFO: 1, 截图, ['/static/screenshot/normalScreenShot/21887_success2018-09-13_12_04_56.jpg', '/static/screenshot/normalScreenShot/21887_success2018-09-13_12_05_18.jpg']
+2018-09-13 12:05:19,700 - [process.py: 145] -INFO: id is 21887, result is 1, stepname is 截图
+2018-09-13 14:46:37,867 - [process.py: 27] -INFO: current case is : Android|com.ylmall.app.ui,点击|id@@com.ylmall.app.ui:id/my_img,等待|2,点击|id@@com.ylmall.app.ui:id/my_rightBtn,等待|5,截图,
+2018-09-13 14:46:37,887 - [atx_core.py: 13] -INFO: {'id': 21884, 'ip': '192.168.0.186'}
+2018-09-13 14:46:37,887 - [atx_core.py: 14] -INFO: []
+2018-09-13 14:46:37,888 - [atx_core.py: 17] -INFO: ['192.168.0.186']
+2018-09-13 14:46:37,888 - [atx_steps.py: 31] -INFO: trying to connect device : 192.168.0.186
+2018-09-13 14:46:38,043 - [atx_steps.py: 34] -INFO: {'udid': '760BBL622HDQ-38:bc:1a:d7:e0:08-MX4_Pro', 'version': '5.1.1', 'serial': '760BBL622HDQ', 'brand': 'Meizu', 'model': 'MX4 Pro', 'hwaddr': '38:bc:1a:d7:e0:08', 'sdk': 22, 'agentVersion': '0.4.3', 'display': {'width': 1536, 'height': 2560}, 'battery': {'acPowered': False, 'usbPowered': True, 'wirelessPowered': False, 'status': 2, 'health': 0, 'present': True, 'level': 70, 'scale': 100, 'voltage': 4058, 'temperature': 363, 'technology': 'Li-poly'}, 'memory': {'total': 2851108, 'around': '3 GB'}, 'cpu': {'cores': 2, 'hardware': 'M76'}, 'presenceChangedAt': '0001-01-01T00:00:00Z', 'usingBeganAt': '0001-01-01T00:00:00Z'}
+2018-09-13 14:46:38,044 - [atx_steps.py: 65] -INFO: trying to unlock...
+2018-09-13 14:46:42,865 - [atx_steps.py: 77] -INFO: trying to swipe up...
+2018-09-13 14:46:45,865 - [atx_steps.py: 80] -INFO: trying to start app...
+2018-09-13 14:46:51,951 - [atx_steps.py: 58] -INFO:         df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+    versionCode=12 targetSdk=19
+    versionName=1.1.2
+
+2018-09-13 14:46:51,952 - [atx_steps.py: 89] -INFO: package found, start testing!
+2018-09-13 14:46:54,012 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , 允许
+2018-09-13 14:46:55,784 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , 始终允许
+2018-09-13 14:46:56,872 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , ALLOW
+2018-09-13 14:46:57,877 - [atx_core.py: 31] -INFO:  is 192.168.0.186 connected?  1
+2018-09-13 14:46:57,878 - [atx_core.py: 33] -INFO: start runnning test on 192.168.0.186
+2018-09-13 14:46:57,878 - [atx_core.py: 37] -INFO: current step is: Android|com.ylmall.app.ui
+2018-09-13 14:46:57,879 - [atx_core.py: 45] -INFO: Android
+2018-09-13 14:46:57,879 - [atx_core.py: 48] -INFO: ['com.ylmall.app.ui']
+2018-09-13 14:46:57,880 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:46:58,886 - [atx_core.py: 70] -INFO: finish step Android : ['com.ylmall.app.ui'].
+2018-09-13 14:46:58,888 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_img
+2018-09-13 14:46:58,889 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 14:46:58,889 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_img']
+2018-09-13 14:46:58,889 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:46:58,947 - [atx_steps.py: 181] -ERROR: 出错了，没有找到元素！ by id , com.ylmall.app.ui:id/my_img
+2018-09-13 14:47:02,990 - [atx_core.py: 66] -ERROR: failed at 点击 : ['id', 'com.ylmall.app.ui:id/my_img'], try again!
+2018-09-13 14:47:02,990 - [atx_core.py: 53] -INFO: try time: 2
+2018-09-13 14:47:06,871 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_img'].
+2018-09-13 14:47:06,871 - [atx_core.py: 37] -INFO: current step is: 等待|2
+2018-09-13 14:47:06,872 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 14:47:06,872 - [atx_core.py: 48] -INFO: ['2']
+2018-09-13 14:47:06,873 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:47:08,879 - [atx_core.py: 70] -INFO: finish step 等待 : ['2'].
+2018-09-13 14:47:08,880 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_rightBtn
+2018-09-13 14:47:08,880 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 14:47:08,881 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_rightBtn']
+2018-09-13 14:47:08,882 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:47:10,456 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_rightBtn'].
+2018-09-13 14:47:10,457 - [atx_core.py: 37] -INFO: current step is: 等待|5
+2018-09-13 14:47:10,458 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 14:47:10,459 - [atx_core.py: 48] -INFO: ['5']
+2018-09-13 14:47:10,460 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:47:15,463 - [atx_core.py: 70] -INFO: finish step 等待 : ['5'].
+2018-09-13 14:47:15,464 - [atx_core.py: 37] -INFO: current step is: 截图
+2018-09-13 14:47:15,464 - [atx_core.py: 45] -INFO: 截图
+2018-09-13 14:47:15,465 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:47:17,230 - [atx_core.py: 70] -INFO: finish step 截图 : [].
+2018-09-13 14:47:17,231 - [atx_core.py: 37] -INFO: current step is: 
+2018-09-13 14:47:17,231 - [process.py: 37] -INFO: 1, 截图, ['/static/screenshot/normalScreenShot/21884_success2018-09-13_14_46_58.jpg', '/static/screenshot/normalScreenShot/21884_success2018-09-13_14_47_15.jpg']
+2018-09-13 14:47:17,232 - [process.py: 145] -INFO: id is 21884, result is 1, stepname is 截图
+2018-09-13 14:50:31,307 - [process.py: 27] -INFO: current case is : Android|com.ylmall.app.ui,点击|id@@com.ylmall.app.ui:id/my_img,等待|2,点击|id@@com.ylmall.app.ui:id/my_rightBtn,等待|5,截图,
+2018-09-13 14:50:31,338 - [atx_core.py: 13] -INFO: {'id': 21884, 'ip': '192.168.0.186'}
+2018-09-13 14:50:31,339 - [atx_core.py: 14] -INFO: []
+2018-09-13 14:50:31,340 - [atx_core.py: 17] -INFO: ['192.168.0.186']
+2018-09-13 14:50:31,341 - [atx_steps.py: 31] -INFO: trying to connect device : 192.168.0.186
+2018-09-13 14:50:31,512 - [atx_steps.py: 34] -INFO: {'udid': '760BBL622HDQ-38:bc:1a:d7:e0:08-MX4_Pro', 'version': '5.1.1', 'serial': '760BBL622HDQ', 'brand': 'Meizu', 'model': 'MX4 Pro', 'hwaddr': '38:bc:1a:d7:e0:08', 'sdk': 22, 'agentVersion': '0.4.3', 'display': {'width': 1536, 'height': 2560}, 'battery': {'acPowered': False, 'usbPowered': True, 'wirelessPowered': False, 'status': 2, 'health': 0, 'present': True, 'level': 70, 'scale': 100, 'voltage': 4047, 'temperature': 370, 'technology': 'Li-poly'}, 'memory': {'total': 2851108, 'around': '3 GB'}, 'cpu': {'cores': 2, 'hardware': 'M76'}, 'presenceChangedAt': '0001-01-01T00:00:00Z', 'usingBeganAt': '0001-01-01T00:00:00Z'}
+2018-09-13 14:50:31,515 - [atx_steps.py: 65] -INFO: trying to unlock...
+2018-09-13 14:50:35,845 - [atx_steps.py: 77] -INFO: trying to swipe up...
+2018-09-13 14:50:38,821 - [atx_steps.py: 80] -INFO: trying to start app...
+2018-09-13 14:50:44,289 - [atx_steps.py: 58] -INFO:         df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+    versionCode=12 targetSdk=19
+    versionName=1.1.2
+
+2018-09-13 14:50:44,290 - [atx_steps.py: 89] -INFO: package found, start testing!
+2018-09-13 14:50:46,662 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , 允许
+2018-09-13 14:50:48,161 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , 始终允许
+2018-09-13 14:50:49,260 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , ALLOW
+2018-09-13 14:50:50,265 - [atx_core.py: 31] -INFO:  is 192.168.0.186 connected?  1
+2018-09-13 14:50:50,265 - [atx_core.py: 33] -INFO: start runnning test on 192.168.0.186
+2018-09-13 14:50:50,266 - [atx_core.py: 37] -INFO: current step is: Android|com.ylmall.app.ui
+2018-09-13 14:50:50,266 - [atx_core.py: 45] -INFO: Android
+2018-09-13 14:50:50,267 - [atx_core.py: 48] -INFO: ['com.ylmall.app.ui']
+2018-09-13 14:50:50,267 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:50:51,273 - [atx_core.py: 70] -INFO: finish step Android : ['com.ylmall.app.ui'].
+2018-09-13 14:50:51,275 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_img
+2018-09-13 14:50:51,285 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 14:50:51,285 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_img']
+2018-09-13 14:50:51,286 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:50:51,323 - [atx_steps.py: 181] -ERROR: 出错了，没有找到元素！ by id , com.ylmall.app.ui:id/my_img
+2018-09-13 14:50:54,892 - [atx_core.py: 66] -ERROR: failed at 点击 : ['id', 'com.ylmall.app.ui:id/my_img'], try again!
+2018-09-13 14:50:54,892 - [atx_core.py: 53] -INFO: try time: 2
+2018-09-13 14:51:02,607 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_img'].
+2018-09-13 14:51:02,608 - [atx_core.py: 37] -INFO: current step is: 等待|2
+2018-09-13 14:51:02,609 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 14:51:02,609 - [atx_core.py: 48] -INFO: ['2']
+2018-09-13 14:51:02,610 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:51:04,616 - [atx_core.py: 70] -INFO: finish step 等待 : ['2'].
+2018-09-13 14:51:04,616 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_rightBtn
+2018-09-13 14:51:04,617 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 14:51:04,618 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_rightBtn']
+2018-09-13 14:51:04,618 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:51:06,262 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_rightBtn'].
+2018-09-13 14:51:06,262 - [atx_core.py: 37] -INFO: current step is: 等待|5
+2018-09-13 14:51:06,263 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 14:51:06,264 - [atx_core.py: 48] -INFO: ['5']
+2018-09-13 14:51:06,265 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:51:11,268 - [atx_core.py: 70] -INFO: finish step 等待 : ['5'].
+2018-09-13 14:51:11,269 - [atx_core.py: 37] -INFO: current step is: 截图
+2018-09-13 14:51:11,270 - [atx_core.py: 45] -INFO: 截图
+2018-09-13 14:51:11,270 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:51:12,713 - [atx_core.py: 70] -INFO: finish step 截图 : [].
+2018-09-13 14:51:12,713 - [atx_core.py: 37] -INFO: current step is: 
+2018-09-13 14:51:12,714 - [process.py: 37] -INFO: 1, 截图, ['/static/screenshot/normalScreenShot/21884_success2018-09-13_14_50_51.jpg', '/static/screenshot/normalScreenShot/21884_success2018-09-13_14_51_11.jpg']
+2018-09-13 14:51:12,714 - [process.py: 145] -INFO: id is 21884, result is 1, stepname is 截图
+2018-09-13 14:52:25,533 - [process.py: 27] -INFO: current case is : Android|com.ylmall.app.ui,点击|id@@com.ylmall.app.ui:id/my_img,等待|2,点击|id@@com.ylmall.app.ui:id/my_rightBtn,等待|5,截图,
+2018-09-13 14:52:25,548 - [atx_core.py: 13] -INFO: {'id': 21884, 'ip': '192.168.0.186'}
+2018-09-13 14:52:25,549 - [atx_core.py: 14] -INFO: []
+2018-09-13 14:52:25,550 - [atx_core.py: 17] -INFO: ['192.168.0.186']
+2018-09-13 14:52:25,550 - [atx_steps.py: 31] -INFO: trying to connect device : 192.168.0.186
+2018-09-13 14:52:25,584 - [atx_steps.py: 34] -INFO: {'udid': '760BBL622HDQ-38:bc:1a:d7:e0:08-MX4_Pro', 'version': '5.1.1', 'serial': '760BBL622HDQ', 'brand': 'Meizu', 'model': 'MX4 Pro', 'hwaddr': '38:bc:1a:d7:e0:08', 'sdk': 22, 'agentVersion': '0.4.3', 'display': {'width': 1536, 'height': 2560}, 'battery': {'acPowered': False, 'usbPowered': True, 'wirelessPowered': False, 'status': 2, 'health': 0, 'present': True, 'level': 70, 'scale': 100, 'voltage': 4067, 'temperature': 372, 'technology': 'Li-poly'}, 'memory': {'total': 2851108, 'around': '3 GB'}, 'cpu': {'cores': 2, 'hardware': 'M76'}, 'presenceChangedAt': '0001-01-01T00:00:00Z', 'usingBeganAt': '0001-01-01T00:00:00Z'}
+2018-09-13 14:52:25,585 - [atx_steps.py: 65] -INFO: trying to unlock...
+2018-09-13 14:52:30,347 - [atx_steps.py: 77] -INFO: trying to swipe up...
+2018-09-13 14:52:33,321 - [atx_steps.py: 80] -INFO: trying to start app...
+2018-09-13 14:52:39,497 - [atx_steps.py: 58] -INFO:         df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+    versionCode=12 targetSdk=19
+    versionName=1.1.2
+
+2018-09-13 14:52:39,498 - [atx_steps.py: 89] -INFO: package found, start testing!
+2018-09-13 14:52:42,067 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , 允许
+2018-09-13 14:52:43,780 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , 始终允许
+2018-09-13 14:52:45,170 - [atx_steps.py: 170] -ERROR: 出错了，没有找到元素！ by text , ALLOW
+2018-09-13 14:52:46,173 - [atx_core.py: 31] -INFO:  is 192.168.0.186 connected?  1
+2018-09-13 14:52:46,174 - [atx_core.py: 33] -INFO: start runnning test on 192.168.0.186
+2018-09-13 14:52:46,176 - [atx_core.py: 37] -INFO: current step is: Android|com.ylmall.app.ui
+2018-09-13 14:52:46,177 - [atx_core.py: 45] -INFO: Android
+2018-09-13 14:52:46,178 - [atx_core.py: 48] -INFO: ['com.ylmall.app.ui']
+2018-09-13 14:52:46,180 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:52:47,184 - [atx_core.py: 70] -INFO: finish step Android : ['com.ylmall.app.ui'].
+2018-09-13 14:52:47,185 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_img
+2018-09-13 14:52:47,185 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 14:52:47,186 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_img']
+2018-09-13 14:52:47,187 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:52:51,822 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_img'].
+2018-09-13 14:52:51,823 - [atx_core.py: 37] -INFO: current step is: 等待|2
+2018-09-13 14:52:51,824 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 14:52:51,825 - [atx_core.py: 48] -INFO: ['2']
+2018-09-13 14:52:51,825 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:52:53,831 - [atx_core.py: 70] -INFO: finish step 等待 : ['2'].
+2018-09-13 14:52:53,831 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_rightBtn
+2018-09-13 14:52:53,832 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 14:52:53,833 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_rightBtn']
+2018-09-13 14:52:53,833 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:52:55,832 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_rightBtn'].
+2018-09-13 14:52:55,833 - [atx_core.py: 37] -INFO: current step is: 等待|5
+2018-09-13 14:52:55,834 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 14:52:55,834 - [atx_core.py: 48] -INFO: ['5']
+2018-09-13 14:52:55,835 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:53:00,840 - [atx_core.py: 70] -INFO: finish step 等待 : ['5'].
+2018-09-13 14:53:00,840 - [atx_core.py: 37] -INFO: current step is: 截图
+2018-09-13 14:53:00,841 - [atx_core.py: 45] -INFO: 截图
+2018-09-13 14:53:00,842 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:53:02,442 - [atx_core.py: 70] -INFO: finish step 截图 : [].
+2018-09-13 14:53:02,442 - [atx_core.py: 37] -INFO: current step is: 
+2018-09-13 14:53:02,443 - [process.py: 37] -INFO: 1, 截图, ['/static/screenshot/normalScreenShot/21884_success2018-09-13_14_53_00.jpg']
+2018-09-13 14:53:02,443 - [process.py: 145] -INFO: id is 21884, result is 1, stepname is 截图
+2018-09-13 14:55:07,614 - [process.py: 27] -INFO: current case is : Android|com.ylmall.app.ui,点击|id@@com.ylmall.app.ui:id/my_img,等待|2,点击|id@@com.ylmall.app.ui:id/my_rightBtn,等待|5,截图,关闭
+2018-09-13 14:55:09,940 - [atx_core.py: 13] -INFO: {'id': 21884, 'ip': '192.168.0.186'}
+2018-09-13 14:55:09,941 - [atx_core.py: 14] -INFO: []
+2018-09-13 14:55:09,942 - [atx_core.py: 17] -INFO: ['192.168.0.186']
+2018-09-13 14:55:11,735 - [atx_steps.py: 32] -INFO: trying to connect device : 192.168.0.186
+2018-09-13 14:55:13,008 - [atx_steps.py: 35] -INFO: {'udid': '760BBL622HDQ-38:bc:1a:d7:e0:08-MX4_Pro', 'version': '5.1.1', 'serial': '760BBL622HDQ', 'brand': 'Meizu', 'model': 'MX4 Pro', 'hwaddr': '38:bc:1a:d7:e0:08', 'sdk': 22, 'agentVersion': '0.4.3', 'display': {'width': 1536, 'height': 2560}, 'battery': {'acPowered': False, 'usbPowered': True, 'wirelessPowered': False, 'status': 2, 'health': 0, 'present': True, 'level': 70, 'scale': 100, 'voltage': 4065, 'temperature': 371, 'technology': 'Li-poly'}, 'memory': {'total': 2851108, 'around': '3 GB'}, 'cpu': {'cores': 2, 'hardware': 'M76'}, 'presenceChangedAt': '0001-01-01T00:00:00Z', 'usingBeganAt': '0001-01-01T00:00:00Z'}
+2018-09-13 14:55:14,055 - [atx_steps.py: 66] -INFO: trying to unlock...
+2018-09-13 14:55:18,184 - [atx_steps.py: 78] -INFO: trying to swipe up...
+2018-09-13 14:55:21,358 - [atx_steps.py: 81] -INFO: trying to start app...
+2018-09-13 14:55:27,570 - [atx_steps.py: 59] -INFO:         df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+    versionCode=12 targetSdk=19
+    versionName=1.1.2
+
+2018-09-13 14:55:27,571 - [atx_steps.py: 90] -INFO: package found, start testing!
+2018-09-13 14:55:35,455 - [atx_steps.py: 171] -ERROR: 出错了，没有找到元素！ by text , 允许
+2018-09-13 14:55:44,140 - [atx_steps.py: 171] -ERROR: 出错了，没有找到元素！ by text , 始终允许
+2018-09-13 14:55:51,513 - [atx_steps.py: 171] -ERROR: 出错了，没有找到元素！ by text , ALLOW
+2018-09-13 14:56:00,944 - [atx_core.py: 31] -INFO:  is 192.168.0.186 connected?  1
+2018-09-13 14:56:02,559 - [atx_core.py: 33] -INFO: start runnning test on 192.168.0.186
+2018-09-13 14:56:03,847 - [atx_core.py: 37] -INFO: current step is: Android|com.ylmall.app.ui
+2018-09-13 14:56:05,339 - [atx_core.py: 45] -INFO: Android
+2018-09-13 14:56:06,047 - [atx_core.py: 48] -INFO: ['com.ylmall.app.ui']
+2018-09-13 14:56:07,471 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:56:17,215 - [atx_core.py: 70] -INFO: finish step Android : ['com.ylmall.app.ui'].
+2018-09-13 14:56:17,219 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_img
+2018-09-13 14:56:17,222 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 14:56:17,225 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_img']
+2018-09-13 14:56:17,228 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:56:28,224 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_img'].
+2018-09-13 14:56:28,227 - [atx_core.py: 37] -INFO: current step is: 等待|2
+2018-09-13 14:56:28,230 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 14:56:28,235 - [atx_core.py: 48] -INFO: ['2']
+2018-09-13 14:56:28,237 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:56:32,988 - [atx_core.py: 70] -INFO: finish step 等待 : ['2'].
+2018-09-13 14:56:32,991 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_rightBtn
+2018-09-13 14:56:32,995 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 14:56:32,998 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_rightBtn']
+2018-09-13 14:56:33,001 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:56:36,944 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_rightBtn'].
+2018-09-13 14:56:36,948 - [atx_core.py: 37] -INFO: current step is: 等待|5
+2018-09-13 14:56:36,951 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 14:56:36,955 - [atx_core.py: 48] -INFO: ['5']
+2018-09-13 14:56:36,958 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:56:44,542 - [atx_core.py: 70] -INFO: finish step 等待 : ['5'].
+2018-09-13 14:56:44,546 - [atx_core.py: 37] -INFO: current step is: 截图
+2018-09-13 14:56:44,549 - [atx_core.py: 45] -INFO: 截图
+2018-09-13 14:56:44,553 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:56:52,051 - [atx_core.py: 70] -INFO: finish step 截图 : [].
+2018-09-13 14:56:52,053 - [atx_core.py: 37] -INFO: current step is: 关闭
+2018-09-13 14:56:52,056 - [atx_core.py: 45] -INFO: 关闭
+2018-09-13 14:56:52,059 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 14:57:31,664 - [atx_steps.py: 260] -ERROR: error in  : 关闭
+2018-09-13 15:07:04,254 - [process.py: 27] -INFO: current case is : Android|com.ylmall.app.ui,点击|id@@com.ylmall.app.ui:id/my_img,等待|2,点击|id@@com.ylmall.app.ui:id/my_rightBtn,等待|5,截图,
+2018-09-13 15:07:04,277 - [atx_core.py: 13] -INFO: {'id': 21884, 'ip': '192.168.0.186'}
+2018-09-13 15:07:04,277 - [atx_core.py: 14] -INFO: []
+2018-09-13 15:07:04,278 - [atx_core.py: 17] -INFO: ['192.168.0.186']
+2018-09-13 15:07:04,278 - [atx_steps.py: 32] -INFO: trying to connect device : 192.168.0.186
+2018-09-13 15:07:04,327 - [atx_steps.py: 35] -INFO: {'udid': '760BBL622HDQ-38:bc:1a:d7:e0:08-MX4_Pro', 'version': '5.1.1', 'serial': '760BBL622HDQ', 'brand': 'Meizu', 'model': 'MX4 Pro', 'hwaddr': '38:bc:1a:d7:e0:08', 'sdk': 22, 'agentVersion': '0.4.3', 'display': {'width': 1536, 'height': 2560}, 'battery': {'acPowered': False, 'usbPowered': True, 'wirelessPowered': False, 'status': 2, 'health': 0, 'present': True, 'level': 72, 'scale': 100, 'voltage': 4089, 'temperature': 365, 'technology': 'Li-poly'}, 'memory': {'total': 2851108, 'around': '3 GB'}, 'cpu': {'cores': 2, 'hardware': 'M76'}, 'presenceChangedAt': '0001-01-01T00:00:00Z', 'usingBeganAt': '0001-01-01T00:00:00Z'}
+2018-09-13 15:07:04,327 - [atx_steps.py: 66] -INFO: trying to unlock...
+2018-09-13 15:07:09,034 - [atx_steps.py: 78] -INFO: trying to swipe up...
+2018-09-13 15:07:12,314 - [atx_steps.py: 81] -INFO: trying to start app...
+2018-09-13 15:07:18,235 - [atx_steps.py: 59] -INFO:         df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+    versionCode=12 targetSdk=19
+    versionName=1.1.2
+
+2018-09-13 15:07:18,236 - [atx_steps.py: 90] -INFO: package found, start testing!
+2018-09-13 15:07:20,562 - [atx_steps.py: 171] -ERROR: 出错了，没有找到元素！ by text , 允许
+2018-09-13 15:07:22,257 - [atx_steps.py: 171] -ERROR: 出错了，没有找到元素！ by text , 始终允许
+2018-09-13 15:07:23,334 - [atx_steps.py: 171] -ERROR: 出错了，没有找到元素！ by text , ALLOW
+2018-09-13 15:07:24,338 - [atx_core.py: 31] -INFO:  is 192.168.0.186 connected?  1
+2018-09-13 15:07:24,339 - [atx_core.py: 33] -INFO: start runnning test on 192.168.0.186
+2018-09-13 15:07:24,340 - [atx_core.py: 37] -INFO: current step is: Android|com.ylmall.app.ui
+2018-09-13 15:07:24,341 - [atx_core.py: 45] -INFO: Android
+2018-09-13 15:07:24,341 - [atx_core.py: 48] -INFO: ['com.ylmall.app.ui']
+2018-09-13 15:07:24,342 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:07:25,347 - [atx_core.py: 70] -INFO: finish step Android : ['com.ylmall.app.ui'].
+2018-09-13 15:07:25,348 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_img
+2018-09-13 15:07:25,349 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 15:07:25,349 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_img']
+2018-09-13 15:07:25,350 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:07:25,443 - [atx_steps.py: 182] -ERROR: 出错了，没有找到元素！ by id , com.ylmall.app.ui:id/my_img
+2018-09-13 15:07:29,055 - [atx_core.py: 66] -ERROR: failed at 点击 : ['id', 'com.ylmall.app.ui:id/my_img'], try again!
+2018-09-13 15:07:29,055 - [atx_core.py: 53] -INFO: try time: 2
+2018-09-13 15:07:29,106 - [atx_steps.py: 182] -ERROR: 出错了，没有找到元素！ by id , com.ylmall.app.ui:id/my_img
+2018-09-13 15:07:30,660 - [atx_core.py: 66] -ERROR: failed at 点击 : ['id', 'com.ylmall.app.ui:id/my_img'], try again!
+2018-09-13 15:07:30,661 - [atx_core.py: 53] -INFO: try time: 3
+2018-09-13 15:07:30,712 - [atx_steps.py: 182] -ERROR: 出错了，没有找到元素！ by id , com.ylmall.app.ui:id/my_img
+2018-09-13 15:07:32,192 - [atx_core.py: 66] -ERROR: failed at 点击 : ['id', 'com.ylmall.app.ui:id/my_img'], try again!
+2018-09-13 15:07:32,193 - [atx_core.py: 72] -ERROR: failed at 点击 : ['id', 'com.ylmall.app.ui:id/my_img'] after trying 3 times!
+2018-09-13 15:07:32,193 - [process.py: 37] -INFO: 2, 点击, ['/static/screenshot/normalScreenShot/21884_success2018-09-13_15_07_25.jpg', '/static/screenshot/normalScreenShot/21884_success2018-09-13_15_07_29.jpg', '/static/screenshot/normalScreenShot/21884_success2018-09-13_15_07_30.jpg']
+2018-09-13 15:07:32,194 - [process.py: 145] -INFO: id is 21884, result is 2, stepname is 点击
+2018-09-13 15:09:49,920 - [process.py: 27] -INFO: current case is : Android|com.ylmall.app.ui,点击|id@@com.ylmall.app.ui:id/my_img,等待|2,点击|id@@com.ylmall.app.ui:id/my_rightBtn,等待|5,截图,
+2018-09-13 15:11:03,489 - [process.py: 27] -INFO: current case is : Android|com.ylmall.app.ui,点击|id@@com.ylmall.app.ui:id/my_img,等待|2,点击|id@@com.ylmall.app.ui:id/my_rightBtn,等待|5,截图,
+2018-09-13 15:11:04,848 - [atx_core.py: 13] -INFO: {'id': 21884, 'ip': '192.168.0.186'}
+2018-09-13 15:11:04,850 - [atx_core.py: 14] -INFO: []
+2018-09-13 15:11:04,851 - [atx_core.py: 17] -INFO: ['192.168.0.186']
+2018-09-13 15:11:05,631 - [atx_steps.py: 32] -INFO: trying to connect device : 192.168.0.186
+2018-09-13 15:11:06,056 - [atx_steps.py: 35] -INFO: {'udid': '760BBL622HDQ-38:bc:1a:d7:e0:08-MX4_Pro', 'version': '5.1.1', 'serial': '760BBL622HDQ', 'brand': 'Meizu', 'model': 'MX4 Pro', 'hwaddr': '38:bc:1a:d7:e0:08', 'sdk': 22, 'agentVersion': '0.4.3', 'display': {'width': 1536, 'height': 2560}, 'battery': {'acPowered': False, 'usbPowered': True, 'wirelessPowered': False, 'status': 2, 'health': 0, 'present': True, 'level': 72, 'scale': 100, 'voltage': 4087, 'temperature': 369, 'technology': 'Li-poly'}, 'memory': {'total': 2851108, 'around': '3 GB'}, 'cpu': {'cores': 2, 'hardware': 'M76'}, 'presenceChangedAt': '0001-01-01T00:00:00Z', 'usingBeganAt': '0001-01-01T00:00:00Z'}
+2018-09-13 15:11:06,627 - [atx_steps.py: 66] -INFO: trying to unlock...
+2018-09-13 15:11:10,699 - [atx_steps.py: 78] -INFO: trying to swipe up...
+2018-09-13 15:11:13,771 - [atx_steps.py: 81] -INFO: trying to start app...
+2018-09-13 15:11:19,779 - [atx_steps.py: 59] -INFO:         df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+    versionCode=12 targetSdk=19
+    versionName=1.1.2
+
+2018-09-13 15:11:19,780 - [atx_steps.py: 90] -INFO: package found, start testing!
+2018-09-13 15:11:24,232 - [atx_steps.py: 171] -ERROR: 出错了，没有找到元素！ by text , 允许
+2018-09-13 15:11:31,634 - [atx_steps.py: 171] -ERROR: 出错了，没有找到元素！ by text , 始终允许
+2018-09-13 15:11:36,447 - [atx_steps.py: 171] -ERROR: 出错了，没有找到元素！ by text , ALLOW
+2018-09-13 15:11:37,453 - [atx_core.py: 31] -INFO:  is 192.168.0.186 connected?  1
+2018-09-13 15:11:37,454 - [atx_core.py: 33] -INFO: start runnning test on 192.168.0.186
+2018-09-13 15:11:37,455 - [atx_core.py: 37] -INFO: current step is: Android|com.ylmall.app.ui
+2018-09-13 15:11:37,456 - [atx_core.py: 45] -INFO: Android
+2018-09-13 15:11:37,457 - [atx_core.py: 48] -INFO: ['com.ylmall.app.ui']
+2018-09-13 15:11:37,457 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:11:39,184 - [atx_core.py: 70] -INFO: finish step Android : ['com.ylmall.app.ui'].
+2018-09-13 15:11:39,185 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_img
+2018-09-13 15:11:39,186 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 15:11:39,187 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_img']
+2018-09-13 15:11:39,188 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:11:52,402 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_img'].
+2018-09-13 15:11:52,403 - [atx_core.py: 37] -INFO: current step is: 等待|2
+2018-09-13 15:11:52,404 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 15:11:52,405 - [atx_core.py: 48] -INFO: ['2']
+2018-09-13 15:11:52,406 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:11:56,811 - [atx_core.py: 70] -INFO: finish step 等待 : ['2'].
+2018-09-13 15:11:56,812 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_rightBtn
+2018-09-13 15:11:56,813 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 15:11:56,814 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_rightBtn']
+2018-09-13 15:11:56,814 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:12:00,240 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_rightBtn'].
+2018-09-13 15:12:00,241 - [atx_core.py: 37] -INFO: current step is: 等待|5
+2018-09-13 15:12:00,242 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 15:12:00,243 - [atx_core.py: 48] -INFO: ['5']
+2018-09-13 15:12:00,244 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:12:06,470 - [atx_core.py: 70] -INFO: finish step 等待 : ['5'].
+2018-09-13 15:12:06,472 - [atx_core.py: 37] -INFO: current step is: 截图
+2018-09-13 15:12:06,473 - [atx_core.py: 45] -INFO: 截图
+2018-09-13 15:12:06,473 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:12:10,150 - [atx_core.py: 70] -INFO: finish step 截图 : [].
+2018-09-13 15:12:10,151 - [atx_core.py: 37] -INFO: current step is: 
+2018-09-13 15:12:10,152 - [process.py: 37] -INFO: 1, 截图, ['/static/screenshot/normalScreenShot/21884_success2018-09-13_15_12_08.jpg']
+2018-09-13 15:12:10,152 - [process.py: 145] -INFO: id is 21884, result is 1, stepname is 截图
+2018-09-13 15:14:01,326 - [process.py: 27] -INFO: current case is : Android|com.ylmall.app.ui,点击|id@@com.ylmall.app.ui:id/my_img,等待|2,点击|id@@com.ylmall.app.ui:id/my_rightBtn,等待|5,截图,关闭|com.ylmall.app.ui
+2018-09-13 15:14:01,351 - [atx_core.py: 13] -INFO: {'id': 21884, 'ip': '192.168.0.186'}
+2018-09-13 15:14:01,352 - [atx_core.py: 14] -INFO: []
+2018-09-13 15:14:01,353 - [atx_core.py: 17] -INFO: ['192.168.0.186']
+2018-09-13 15:14:01,353 - [atx_steps.py: 32] -INFO: trying to connect device : 192.168.0.186
+2018-09-13 15:14:01,404 - [atx_steps.py: 35] -INFO: {'udid': '760BBL622HDQ-38:bc:1a:d7:e0:08-MX4_Pro', 'version': '5.1.1', 'serial': '760BBL622HDQ', 'brand': 'Meizu', 'model': 'MX4 Pro', 'hwaddr': '38:bc:1a:d7:e0:08', 'sdk': 22, 'agentVersion': '0.4.3', 'display': {'width': 1536, 'height': 2560}, 'battery': {'acPowered': False, 'usbPowered': True, 'wirelessPowered': False, 'status': 2, 'health': 0, 'present': True, 'level': 73, 'scale': 100, 'voltage': 4098, 'temperature': 370, 'technology': 'Li-poly'}, 'memory': {'total': 2851108, 'around': '3 GB'}, 'cpu': {'cores': 2, 'hardware': 'M76'}, 'presenceChangedAt': '0001-01-01T00:00:00Z', 'usingBeganAt': '0001-01-01T00:00:00Z'}
+2018-09-13 15:14:01,405 - [atx_steps.py: 66] -INFO: trying to unlock...
+2018-09-13 15:14:06,110 - [atx_steps.py: 78] -INFO: trying to swipe up...
+2018-09-13 15:14:09,076 - [atx_steps.py: 81] -INFO: trying to start app...
+2018-09-13 15:14:14,929 - [atx_steps.py: 59] -INFO:         df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+    versionCode=12 targetSdk=19
+    versionName=1.1.2
+
+2018-09-13 15:14:14,930 - [atx_steps.py: 90] -INFO: package found, start testing!
+2018-09-13 15:14:17,161 - [atx_steps.py: 171] -ERROR: 出错了，没有找到元素！ by text , 允许
+2018-09-13 15:14:18,756 - [atx_steps.py: 171] -ERROR: 出错了，没有找到元素！ by text , 始终允许
+2018-09-13 15:14:19,816 - [atx_steps.py: 171] -ERROR: 出错了，没有找到元素！ by text , ALLOW
+2018-09-13 15:14:20,821 - [atx_core.py: 31] -INFO:  is 192.168.0.186 connected?  1
+2018-09-13 15:14:20,822 - [atx_core.py: 33] -INFO: start runnning test on 192.168.0.186
+2018-09-13 15:14:20,823 - [atx_core.py: 37] -INFO: current step is: Android|com.ylmall.app.ui
+2018-09-13 15:14:20,824 - [atx_core.py: 45] -INFO: Android
+2018-09-13 15:14:20,824 - [atx_core.py: 48] -INFO: ['com.ylmall.app.ui']
+2018-09-13 15:14:20,825 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:14:21,829 - [atx_core.py: 70] -INFO: finish step Android : ['com.ylmall.app.ui'].
+2018-09-13 15:14:21,830 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_img
+2018-09-13 15:14:21,831 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 15:14:21,832 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_img']
+2018-09-13 15:14:21,833 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:14:26,716 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_img'].
+2018-09-13 15:14:26,717 - [atx_core.py: 37] -INFO: current step is: 等待|2
+2018-09-13 15:14:26,717 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 15:14:26,718 - [atx_core.py: 48] -INFO: ['2']
+2018-09-13 15:14:26,718 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:14:28,723 - [atx_core.py: 70] -INFO: finish step 等待 : ['2'].
+2018-09-13 15:14:28,723 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_rightBtn
+2018-09-13 15:14:28,724 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 15:14:28,724 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_rightBtn']
+2018-09-13 15:14:28,725 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:14:30,472 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_rightBtn'].
+2018-09-13 15:14:30,473 - [atx_core.py: 37] -INFO: current step is: 等待|5
+2018-09-13 15:14:30,474 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 15:14:30,475 - [atx_core.py: 48] -INFO: ['5']
+2018-09-13 15:14:30,475 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:14:35,480 - [atx_core.py: 70] -INFO: finish step 等待 : ['5'].
+2018-09-13 15:14:35,480 - [atx_core.py: 37] -INFO: current step is: 截图
+2018-09-13 15:14:35,481 - [atx_core.py: 45] -INFO: 截图
+2018-09-13 15:14:35,481 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:14:36,979 - [atx_core.py: 70] -INFO: finish step 截图 : [].
+2018-09-13 15:14:36,980 - [atx_core.py: 37] -INFO: current step is: 关闭|com.ylmall.app.ui
+2018-09-13 15:14:36,980 - [atx_core.py: 45] -INFO: 关闭
+2018-09-13 15:14:36,981 - [atx_core.py: 48] -INFO: ['com.ylmall.app.ui']
+2018-09-13 15:14:36,981 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:14:37,586 - [atx_core.py: 70] -INFO: finish step 关闭 : ['com.ylmall.app.ui'].
+2018-09-13 15:14:37,587 - [process.py: 37] -INFO: 1, 关闭, ['/static/screenshot/normalScreenShot/21884_success2018-09-13_15_14_35.jpg']
+2018-09-13 15:14:37,587 - [process.py: 145] -INFO: id is 21884, result is 1, stepname is 关闭
+2018-09-13 15:16:26,586 - [process.py: 27] -INFO: current case is : Android|com.ylmall.app.ui,点击|id@@com.ylmall.app.ui:id/my_img,等待|2,点击|id@@com.ylmall.app.ui:id/my_rightBtn,等待|5,截图,关闭|com.ylmall.app.ui
+2018-09-13 15:16:27,174 - [atx_core.py: 13] -INFO: {'id': 21884, 'ip': '192.168.0.186'}
+2018-09-13 15:16:27,176 - [atx_core.py: 14] -INFO: []
+2018-09-13 15:16:27,177 - [atx_core.py: 17] -INFO: ['192.168.0.186']
+2018-09-13 15:16:27,473 - [atx_steps.py: 32] -INFO: trying to connect device : 192.168.0.186
+2018-09-13 15:16:27,795 - [atx_steps.py: 35] -INFO: {'udid': '760BBL622HDQ-38:bc:1a:d7:e0:08-MX4_Pro', 'version': '5.1.1', 'serial': '760BBL622HDQ', 'brand': 'Meizu', 'model': 'MX4 Pro', 'hwaddr': '38:bc:1a:d7:e0:08', 'sdk': 22, 'agentVersion': '0.4.3', 'display': {'width': 1536, 'height': 2560}, 'battery': {'acPowered': False, 'usbPowered': True, 'wirelessPowered': False, 'status': 2, 'health': 0, 'present': True, 'level': 73, 'scale': 100, 'voltage': 4096, 'temperature': 369, 'technology': 'Li-poly'}, 'memory': {'total': 2851108, 'around': '3 GB'}, 'cpu': {'cores': 2, 'hardware': 'M76'}, 'presenceChangedAt': '0001-01-01T00:00:00Z', 'usingBeganAt': '0001-01-01T00:00:00Z'}
+2018-09-13 15:16:28,322 - [atx_steps.py: 66] -INFO: trying to unlock...
+2018-09-13 15:16:32,738 - [atx_steps.py: 78] -INFO: trying to swipe up...
+2018-09-13 15:16:36,346 - [atx_steps.py: 81] -INFO: trying to start app...
+2018-09-13 15:16:42,246 - [atx_steps.py: 59] -INFO:         df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+        df280c0 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerWFT
+        2414b243 com.ylmall.app.ui/com.yljr.app.version.DownloadManagerDemo
+    versionCode=12 targetSdk=19
+    versionName=1.1.2
+
+2018-09-13 15:16:42,247 - [atx_steps.py: 90] -INFO: package found, start testing!
+2018-09-13 15:16:45,993 - [atx_steps.py: 171] -ERROR: 出错了，没有找到元素！ by text , 允许
+2018-09-13 15:16:49,729 - [atx_steps.py: 171] -ERROR: 出错了，没有找到元素！ by text , 始终允许
+2018-09-13 15:16:51,961 - [atx_steps.py: 171] -ERROR: 出错了，没有找到元素！ by text , ALLOW
+2018-09-13 15:16:52,965 - [atx_core.py: 31] -INFO:  is 192.168.0.186 connected?  1
+2018-09-13 15:16:52,966 - [atx_core.py: 33] -INFO: start runnning test on 192.168.0.186
+2018-09-13 15:16:52,966 - [atx_core.py: 37] -INFO: current step is: Android|com.ylmall.app.ui
+2018-09-13 15:16:52,967 - [atx_core.py: 45] -INFO: Android
+2018-09-13 15:16:52,968 - [atx_core.py: 48] -INFO: ['com.ylmall.app.ui']
+2018-09-13 15:16:52,968 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:16:54,650 - [atx_core.py: 70] -INFO: finish step Android : ['com.ylmall.app.ui'].
+2018-09-13 15:16:54,651 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_img
+2018-09-13 15:16:54,652 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 15:16:54,653 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_img']
+2018-09-13 15:16:54,654 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:16:59,472 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_img'].
+2018-09-13 15:16:59,473 - [atx_core.py: 37] -INFO: current step is: 等待|2
+2018-09-13 15:16:59,474 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 15:16:59,475 - [atx_core.py: 48] -INFO: ['2']
+2018-09-13 15:16:59,476 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:17:01,912 - [atx_core.py: 70] -INFO: finish step 等待 : ['2'].
+2018-09-13 15:17:01,914 - [atx_core.py: 37] -INFO: current step is: 点击|id@@com.ylmall.app.ui:id/my_rightBtn
+2018-09-13 15:17:01,915 - [atx_core.py: 45] -INFO: 点击
+2018-09-13 15:17:01,916 - [atx_core.py: 48] -INFO: ['id', 'com.ylmall.app.ui:id/my_rightBtn']
+2018-09-13 15:17:01,917 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:17:05,007 - [atx_core.py: 70] -INFO: finish step 点击 : ['id', 'com.ylmall.app.ui:id/my_rightBtn'].
+2018-09-13 15:17:05,008 - [atx_core.py: 37] -INFO: current step is: 等待|5
+2018-09-13 15:17:05,009 - [atx_core.py: 45] -INFO: 等待
+2018-09-13 15:17:05,010 - [atx_core.py: 48] -INFO: ['5']
+2018-09-13 15:17:05,010 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:17:10,876 - [atx_core.py: 70] -INFO: finish step 等待 : ['5'].
+2018-09-13 15:17:10,878 - [atx_core.py: 37] -INFO: current step is: 截图
+2018-09-13 15:17:10,879 - [atx_core.py: 45] -INFO: 截图
+2018-09-13 15:17:10,879 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:17:17,744 - [atx_core.py: 70] -INFO: finish step 截图 : [].
+2018-09-13 15:17:17,745 - [atx_core.py: 37] -INFO: current step is: 关闭|com.ylmall.app.ui
+2018-09-13 15:17:17,746 - [atx_core.py: 45] -INFO: 关闭
+2018-09-13 15:17:17,747 - [atx_core.py: 48] -INFO: ['com.ylmall.app.ui']
+2018-09-13 15:17:17,747 - [atx_core.py: 53] -INFO: try time: 1
+2018-09-13 15:18:02,300 - [atx_core.py: 70] -INFO: finish step 关闭 : ['com.ylmall.app.ui'].
+2018-09-13 15:18:02,301 - [process.py: 37] -INFO: 1, 关闭, ['/static/screenshot/normalScreenShot/21884_success2018-09-13_15_17_16.jpg']
+2018-09-13 15:18:02,302 - [process.py: 145] -INFO: id is 21884, result is 1, stepname is 关闭

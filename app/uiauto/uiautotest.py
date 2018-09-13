@@ -1068,7 +1068,7 @@ def wiki():
 @uiautotest.route('/getDeviceList')
 def getDeviceList():
     r =requests.get('http://192.168.0.24:20092/list')
-    content = json.loads(r)
+    #content = json.loads(r)
     # deviceList = []
     # for device in content:
     #     if device['present']:

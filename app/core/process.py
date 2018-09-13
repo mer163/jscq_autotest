@@ -168,24 +168,24 @@ class process():
             self.multipleRun(util.util().getTeseCases(test_suite_id), threadNum)
             test_task_manage.test_task_manage().update_test_suite_check()
 
-def atxMain(self):
-    q = queue.Queue()
-    Hubs = hubs.hubs().getDevices()
-    alllist = util.util().getTeseCasesATX(all=True)
-    if len(Hubs) and len(alllist):
-        count = 0
-        threads = []
-        for i in range(len(Hubs)):
-            j = Hubs[i]
-            threads.append(MyThread(q, i, j))
-        for mt in threads:
-            mt.start()
-            log.log().logger.info("start time: %s" % time.ctime())
+    def atxMain(self):
+        q = queue.Queue()
+        Hubs = hubs.hubs().getDevices()
+        alllist = util.util().getTeseCasesATX(all=True)
+        if len(Hubs) and len(alllist):
+            count = 0
+            threads = []
+            for i in range(len(Hubs)):
+                j = Hubs[i]
+                threads.append(MyThread(q, i, j))
+            for mt in threads:
+                mt.start()
+                log.log().logger.info("start time: %s" % time.ctime())
 
-    elif len(alllist):
-        log.log().logger.info('no device is avaible!')
-    else:
-        log.log().logger.info('no test case is needed!')
+        elif len(alllist):
+            log.log().logger.info('no device is avaible!')
+        else:
+            log.log().logger.info('no test case is needed!')
 
 
 class MyThread(threading.Thread):

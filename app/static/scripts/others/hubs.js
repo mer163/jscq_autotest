@@ -116,7 +116,8 @@ var TableInit = function () {
                 title: '操作',
                 align: 'center',
                 formatter: function (value, row, index) {
-                        var a = '<a href="javascript:;" onclick="window.location.href=(\'/autotest/edit_hub?id='+ row.id + '\')">编辑</a> ';
+                        var a = '<a href="javascript:;" onclick="window.location.href=(\'/autotest/edit_hub?id='+ row.id + '\')">编辑</a> ' +
+                                '<a href="javascript:;" onclick="window.location.href=(\'http://'+ row.ip + ':'+  row.port +'\')">查看</a> ';
                         return a;
                         }
               }

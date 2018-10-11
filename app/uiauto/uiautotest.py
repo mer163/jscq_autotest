@@ -1058,7 +1058,7 @@ def uploadapk():
     # return redirect(url_for('upload'))
     # return render_template('upload.html')
 
-@uiautotest.route('upload')
+@uiautotest.route('/upload')
 def upload():
     return render_template('util/upload.html')
 

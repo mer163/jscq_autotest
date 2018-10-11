@@ -6,3 +6,4 @@ monitor.log
 log.log
 *.jpg
 app/log/*
+coreservice.log

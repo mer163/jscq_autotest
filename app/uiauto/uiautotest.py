@@ -1,6 +1,7 @@
-from  flask import Flask,request,jsonify,make_response,abort,redirect,render_template,request
+from  flask import Flask,request,jsonify,make_response,abort,redirect,render_template,request,url_for
 from flask_login import login_user, logout_user, login_required, \
     current_user
+from werkzeug.utils import secure_filename
 
 from app import log,autotestconfig
 from app.core import hubs
@@ -10,6 +11,9 @@ import pyecharts
 from . import uiautotest
 import requests
 import logging
+import os
+import configparser
+import subprocess
 import json
 
 logging.basicConfig(filename='monitor.log',format='%(asctime)s -%(name)s-%(levelname)s-%(module)s:%(message)s',
@@ -1021,7 +1025,42 @@ def power():
 #新增文件共享
 @uiautotest.route('/fileshare')
 def fileshare():
+
     return render_template("util/fileshare.html")
+
+#新增上传apk到蒲公英
+@uiautotest.route('uploadapk',methods=[ 'GET', 'POST'])
+def uploadapk():
+
+    if request.method == 'POST':
+        f = request.files['file']
+        basepath = os.path.dirname(__file__)  # 当前文件所在路径
+        upload_path = os.path.join(os.getcwd(), 'app/log',
+        secure_filename(f.filename))  # 注意：没有的文件夹一定要先创建，不然会提示没有该路径
+        f.save(upload_path)
+        #保存成功，开始调用蒲公英api上传app
+        config_path = os.path.join(os.getcwd(), 'config.ini')
+        # 读取数据库配置文件
+        config = configparser.ConfigParser()
+        config.read(config_path)
+
+        apikey = str(config.get('path', 'api_key'))
+
+        cmd="curl -F 'file=@" + upload_path + "' " + "-F '_api_key=" + apikey + "' https://www.pgyer.com/apiv2/app/upload"
+        print(cmd)
+        output = subprocess.getoutput(cmd)
+        print(output)
+        return render_template("util/uploadapk.html")
+    else:
+        print('not post')
+        return render_template("util/uploadapk.html")
+
+    # return redirect(url_for('upload'))
+    # return render_template('upload.html')
+
+@uiautotest.route('upload')
+def upload():
+    return render_template('util/upload.html')
 
 #新增Hitchhiker接口自动化
 @uiautotest.route('/hitchhiker')

@@ -1029,7 +1029,7 @@ def fileshare():
     return render_template("util/fileshare.html")
 
 #新增上传apk到蒲公英
-@uiautotest.route('uploadapk',methods=[ 'GET', 'POST'])
+@uiautotest.route('/uploadapk',methods=[ 'GET', 'POST'])
 def uploadapk():
 
     if request.method == 'POST':

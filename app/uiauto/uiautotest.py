@@ -1072,6 +1072,11 @@ def hitchhiker():
 def weditor():
     return render_template("util/weditor.html")
 
+#新增mitmproxy代理
+@uiautotest.route('/mitmproxy')
+def mitmproxy():
+    return render_template("util/mitmproxy.html")
+
 @uiautotest.route('/interfacetestcases')
 def interfacecases():
     if not current_user.is_authenticated:

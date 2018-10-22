@@ -39,7 +39,7 @@ def test():
 
 @app.route('/test/<name>')
 def testuser(name):
-    return render_template('user.html',name=name)
+    return render_template('user.html', name=name)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',debug=True,threaded=True,port=9999)

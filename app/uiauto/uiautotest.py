@@ -1109,6 +1109,7 @@ def confluence():
 def wiki():
     return render_template("util/wiki.html")
 
+#获取设备列表
 @uiautotest.route('/getDeviceList')
 def getDeviceList():
     r =requests.get('http://192.168.0.24:20092/list')

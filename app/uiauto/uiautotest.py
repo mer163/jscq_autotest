@@ -1077,6 +1077,11 @@ def weditor():
 def mitmproxy():
     return render_template("util/mitmproxy.html")
 
+#新增gitlab
+@uiautotest.route('/gitlab')
+def gitlab():
+    return render_template("util/gitlab.html")
+
 @uiautotest.route('/interfacetestcases')
 def interfacecases():
     if not current_user.is_authenticated:

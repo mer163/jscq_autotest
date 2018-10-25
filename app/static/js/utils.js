@@ -1,9 +1,17 @@
 //获取本地gitlab地址
+var gitlabport=20090;
+var hitchhikerport=20087;
+
+
+function gethost(port){
+    self.location.href="http://"+self.location.hostname+":20090"
+}
+
 function getGitlabhost() {
-	console.log("http://"+self.location.hostname+":20090")
 	self.location.href="http://"+self.location.hostname+":20090"
 }
 
 function gethitchhikerhost() {
-    return "http://"+self.location.hostname+":20089"
+    return "http://"+self.location.hostname+":20087"
 }
+

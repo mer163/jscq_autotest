@@ -1285,10 +1285,10 @@ def view_hub():
     # print(request.base_url)
     # print(request.url)
     # print(request.url_root)
-    # # print(request.remote_addr)
-    # print("host",request.host_url.split(":")[0])
+    # print(request.remote_addr)
+    # print("host",request.host_url.split(":")[1])
     # return render_template("util/view_hub.html", host=autotestconfig.ATXHost)
-    return render_template("util/view_hub.html",host=request.host_url.split(":")[0]+":20092")
+    return render_template("util/view_hub.html",host=request.host_url.split(":")[1]+":20092")
 
 
 

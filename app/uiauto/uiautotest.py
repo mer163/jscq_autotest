@@ -1280,7 +1280,15 @@ def search_hubs():
 # 测试节点详情详情
 @uiautotest.route('/view_hub')
 def view_hub():
-    return render_template("util/view_hub.html", host=autotestconfig.ATXHost)
+    # print(request.host)
+    # print(request.host_url)
+    # print(request.base_url)
+    # print(request.url)
+    # print(request.url_root)
+    # # print(request.remote_addr)
+    # print("host",request.host_url.split(":")[0])
+    # return render_template("util/view_hub.html", host=autotestconfig.ATXHost)
+    return render_template("util/view_hub.html",host=request.host_url.split(":")[0]+":20092")
 
 
 

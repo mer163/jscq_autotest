@@ -18,7 +18,11 @@
 <div class="panel-body" style="padding-bottom:0px;">
     <h1 style="text-align:center">WEBEDITOR  - android元素定位查看</h1>
     <div class="main-container" id="main" style="height:100%">
-        <iframe src="http://192.168.0.24:20089" width="100%" height="600"></iframe>
+        <iframe id="ifr_web" src="http://192.168.0.24:20089" width="100%" height="600"></iframe>
     </div>
 </div>
+    <script>
+        $('#ifr_web').attr('src',gethost(weditorport))
+{#        console.log($('#ifr_web').attr('src',gethitchhikerhost()))#}
+    </script>
 {% endblock %}

@@ -133,3 +133,5 @@ function selectAll(parent){
 		_parent.find(".myckbox").removeClass("myckbox-visited").addClass("myckbox-normal");
 	}
 }
+
+}

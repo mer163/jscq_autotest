@@ -3,3 +3,7 @@ function getGitlabhost() {
 	console.log("http://"+self.location.hostname+":20090")
 	self.location.href="http://"+self.location.hostname+":20090"
 }
+
+function gethitchhikerhost() {
+    return "http://"+self.location.hostname+":20089"
+}

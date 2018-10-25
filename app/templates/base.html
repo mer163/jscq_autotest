@@ -12,6 +12,7 @@
     <script src="../static/jquery-1.12.4.js"></script>
     <script src="../static/bootstrap-3.3.7-dist/dist/js/bootstrap.js"></script>
     <link href="../static/bootstrap-3.3.7-dist/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="../static/js/indexJQ.js" ></script>
 {% endblock %}
 
 {% block navbar %}
@@ -28,6 +29,7 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
+
                 <li><a href="/">主页</a></li>
                 <li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -85,7 +87,8 @@
                     <li><a href="/autotest/testlink">testlink</a></li>
                     <li><a href="/autotest/confluence">confluence</a></li>
                     <li><a href="/autotest/wiki">wiki</a> </li>
-                    <li><a href="http://192.168.0.24:20090" target="_blank">gitlab</a> </li>
+
+                    <li><a  onclick="getGitlabhost()">gitlab</a> </li>
 				</ul>
 			    </li>
 

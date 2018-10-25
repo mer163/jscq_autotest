@@ -2,6 +2,8 @@
 var gitlabport=20090;
 var hitchhikerport=20087;
 var weditorport=20089;
+var confluenceport=8090;
+var jiraport=8080;
 
 
 function gethost(port){

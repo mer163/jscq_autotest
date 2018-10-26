@@ -7,6 +7,8 @@ database='zbmock'
 
 isUseATX=True
 ATXHost = 'http://192.168.0.24:20092'
+confluenceHost= 'http://192.168.0.24:8090'
+
 
 import os,platform
 currentPath = os.path.dirname(os.path.abspath(__file__))

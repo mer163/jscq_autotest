@@ -1108,7 +1108,14 @@ def tetlink():
 
 @uiautotest.route('/confluence')
 def confluence():
-    return render_template("util/confluence.html")
+    # print(request.host)
+    # print(request.host_url)
+    # print(request.base_url)
+    # print(request.url)
+    # print(request.url_root)
+    # print(request.remote_addr)
+
+    return render_template("util/confluence.html",url=autotestconfig.confluenceHost)
 
 @uiautotest.route('/wiki')
 def wiki():
@@ -1287,8 +1294,8 @@ def view_hub():
     # print(request.url_root)
     # print(request.remote_addr)
     # print("host",request.host_url.split(":")[1])
-    # return render_template("util/view_hub.html", host=autotestconfig.ATXHost)
-    return render_template("util/view_hub.html",host=request.host_url.split(":")[1]+":20092")
+    return render_template("util/view_hub.html", host=autotestconfig.ATXHost)
+    # return render_template("util/view_hub.html",host=request.host_url.split(":")[1]+":20092")
 
 
 

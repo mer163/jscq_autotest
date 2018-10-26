@@ -18,10 +18,10 @@
 <div class="panel-body" style="padding-bottom:0px;">
     <h1 style="text-align:center">Confluence</h1>
     <div class="main-container" id="main" style="height:100%">
-        <iframe id="fra_web" src="http://192.168.0.24:8090" width="100%" height="600"></iframe>
+        <iframe id="fra_web" src="{{url}}" width="100%" height="600"></iframe>
     </div>
 </div>
-    <script>
-        $('#fra_web').attr(src,gethost(confluenceport))
-    </script>
+{#    <script>#}
+{#        $('#fra_web').attr(src,gethost(confluenceport))#}
+{#    </script>#}
 {% endblock %}

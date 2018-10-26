@@ -4,6 +4,7 @@ var hitchhikerport=20087;
 var weditorport=20089;
 var confluenceport=8090;
 var jiraport=8080;
+var mitmproxyport=28081;
 
 
 function gethost(port){

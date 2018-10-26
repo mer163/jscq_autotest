@@ -19,11 +19,11 @@
 <div class="panel-body" style="padding-bottom:0px;">
     <h1 style="text-align:center">Hitchhiker 接口自动化平台</h1>
     <div class="main-container" id="main" style="height:100%">
-        <iframe id="ifr_web"  width="100%" height="800"></iframe>
+        <iframe id="ifr_web" src="{{url}}" width="100%" height="800"></iframe>
     </div>
-</div>
-    <script>
-        $('#ifr_web').attr('src',gethost(hitchhikerport))
+{#</div>#}
+{#    <script>#}
+{#        $('#ifr_web').attr('src',gethost(hitchhikerport))#}
 {#        console.log($('#ifr_web').attr('src',gethitchhikerhost()))#}
-    </script>
+{#    </script>#}
 {% endblock %}

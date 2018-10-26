@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Tetlink  - mitmproxy 本地代理{% endblock %}
+{% block title %}gitlab  - 本地gitlab{% endblock %}
 
 {% block head %}
 <meta name="viewport" content="width=device-width"/>
@@ -16,12 +16,9 @@
 {% endblock %}
 {% block content %}
 <div class="panel-body" style="padding-bottom:0px;">
-    <h1 style="text-align:center">mitmproxy 本地代理（请先设置代理服务器ip:192.168.0.24 port:28080 后查看）</h1>
+    <h1 style="text-align:center">gitlab 本地</h1>
     <div class="main-container" id="main" style="height:100%">
-        <iframe id='fra_web' src="{{url}}" width="100%" height="800"></iframe>
+        <iframe src="{{url}}" width="100%" height="800"></iframe>
     </div>
 </div>
-{#    <script>#}
-{#        $('#fra_web').attr(src,gethost(mitmproxyport))#}
-{#    </script>#}
 {% endblock %}

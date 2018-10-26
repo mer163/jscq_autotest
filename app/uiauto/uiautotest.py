@@ -1065,22 +1065,22 @@ def upload():
 #新增Hitchhiker接口自动化
 @uiautotest.route('/hitchhiker')
 def hitchhiker():
-    return render_template("util/hitchhiker.html")
+    return render_template("util/hitchhiker.html",url=autotestconfig.hitchhikerHost)
 
 #新增wedtor元素chakan
 @uiautotest.route('/weditor')
 def weditor():
-    return render_template("util/weditor.html")
+    return render_template("util/weditor.html",url=autotestconfig.weditorHost)
 
 #新增mitmproxy代理
 @uiautotest.route('/mitmproxy')
 def mitmproxy():
-    return render_template("util/mitmproxy.html")
+    return render_template("util/mitmproxy.html",url=autotestconfig.mitmproxHost)
 
 #新增gitlab
 @uiautotest.route('/gitlab')
 def gitlab():
-    return render_template("util/gitlab.html")
+    return render_template("util/gitlab.html",url=autotestconfig.gitlabHost)
 
 @uiautotest.route('/interfacetestcases')
 def interfacecases():
@@ -1100,11 +1100,11 @@ def interfacemock():
 
 @uiautotest.route('/jira')
 def jira():
-    return render_template("util/jira.html")
+    return render_template("util/jira.html",url=autotestconfig.jiraHost)
 
 @uiautotest.route('/testlink')
 def tetlink():
-    return render_template("util/testlink.html")
+    return render_template("util/testlink.html",url=autotestconfig.testlinkHost)
 
 @uiautotest.route('/confluence')
 def confluence():
@@ -1119,7 +1119,7 @@ def confluence():
 
 @uiautotest.route('/wiki')
 def wiki():
-    return render_template("util/wiki.html")
+    return render_template("util/wiki.html",url=autotestconfig.wikiHost)
 
 #获取设备列表
 @uiautotest.route('/getDeviceList')

@@ -12,7 +12,7 @@ function gethost(port){
 }
 
 function getGitlabhost() {
-	self.location.href="http://"+self.location.hostname+":20090"
+	self.location.href="http://gitlab.hudong.net"
 }
 
 function gethitchhikerhost() {

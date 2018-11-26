@@ -1126,7 +1126,7 @@ def wiki():
 #获取设备列表
 @uiautotest.route('/getDeviceList')
 def getDeviceList():
-    r =requests.get('http://192.168.0.24:20092/list')
+    r =requests.get(autotestconfig.ATXHost + 'list')
     #content = json.loads(r)
     # deviceList = []
     # for device in content:

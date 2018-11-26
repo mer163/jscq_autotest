@@ -1091,15 +1091,15 @@ def gitlab():
 
 @uiautotest.route('/interfacetestcases')
 def interfacecases():
-    if not current_user.is_authenticated:
-        response = redirect('/auth/login',code=302,Response=None)
-        return response
-    else:
-        return render_template("util/interfacetestcases.html")
+    return render_template("util/interfacetestcases.html")
+    # if not current_user.is_authenticated:
+    #     response = redirect('/auth/login',code=302,Response=None)
+    #     return response
+    # else:
+    #     return render_template("util/interfacetestcases.html")
+
 
 @uiautotest.route('/interfacemock')
-
-
 def interfacemock():
     if not current_user.is_authenticated:
         response = redirect('/auth/login',code=302,Response=None)

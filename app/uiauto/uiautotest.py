@@ -1080,7 +1080,8 @@ def mitmproxy():
 #新增mantis接口
 @uiautotest.route('/mantis')
 def mantis():
-    return render_template("util/mantis.html",url=autotestconfig.mantis)
+    return redirect(location=autotestconfig.mantis,code=302,Response=None)
+    # return render_template("util/mantis.html",url=autotestconfig.mantis)
 
 #新增gitlab
 @uiautotest.route('/gitlab')

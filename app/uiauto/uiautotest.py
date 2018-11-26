@@ -1080,7 +1080,8 @@ def mitmproxy():
 #新增gitlab
 @uiautotest.route('/gitlab')
 def gitlab():
-    return render_template("util/gitlab.html",url=autotestconfig.gitlabHost)
+    return redirect(location=autotestconfig.gitlabHost,code=302,Response=None)
+    # return render_template("util/gitlab.html",url=autotestconfig.gitlabHost)
 
 @uiautotest.route('/interfacetestcases')
 def interfacecases():

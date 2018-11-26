@@ -1077,6 +1077,11 @@ def weditor():
 def mitmproxy():
     return render_template("util/mitmproxy.html",url=autotestconfig.mitmproxHost)
 
+#新增mantis接口
+@uiautotest.route('/mantis')
+def mantis():
+    return render_template("util/mantis.html",url=autotestconfig.mantis)
+
 #新增gitlab
 @uiautotest.route('/gitlab')
 def gitlab():

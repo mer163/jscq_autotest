@@ -15,6 +15,7 @@ mitmproxHost= 'http://192.168.0.24:28081/'
 testlinkHost= 'http://172.16.1.160:8000/'
 weditorHost = 'http://172.16.1.160:8006/'
 wikiHost='http://wiki.zbwxkj.office/'
+mantis='http://172.16.1.210/bug/main_page.php'
 
 
 import os,platform

@@ -1091,6 +1091,8 @@ def interfacecases():
         return render_template("util/interfacetestcases.html")
 
 @uiautotest.route('/interfacemock')
+
+
 def interfacemock():
     if not current_user.is_authenticated:
         response = redirect('/auth/login',code=302,Response=None)

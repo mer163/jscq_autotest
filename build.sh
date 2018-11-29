@@ -3,7 +3,7 @@
 
 echo '拉取最新代码'
 git fetch --all
-git reest --hard
+git reset --hard
 git pull
 
 echo '切换至dev分支'

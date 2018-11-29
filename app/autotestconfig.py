@@ -6,14 +6,14 @@ password='666666'
 database='zbmock'
 
 isUseATX=True
-ATXHost = 'http://172.16.1.160:8002/'
+ATXHost = 'http://172.16.1.240:8002/'
 confluenceHost= 'http://172.16.1.229:8090/#all-updates'
 gitlabHost = 'http://gitlab.hudong.net'
-hitchhikerHost= 'http://172.16.1.160:20087/'
+hitchhikerHost= 'http://172.16.1.240:20087/'
 jiraHost= 'http://192.168.0.24:8080/secure/Dashboard.jspa'
 mitmproxHost= 'http://192.168.0.24:28081/'
-testlinkHost= 'http://172.16.1.160:8000/'
-weditorHost = 'http://172.16.1.160:8006/'
+testlinkHost= 'http://172.16.1.240:8000/'
+weditorHost = 'http://172.16.1.240:8006/'
 wikiHost='http://wiki.zbwxkj.office/'
 mantis='http://172.16.1.210/bug/main_page.php'
 
